@@ -1,7 +1,5 @@
 #!/bin/sh 
 #
-echo Content-type: text/plain
-echo
 
 PROT_SEGID_1=`echo $1`
 AIR_ACTIVE_1=`echo $2 | sed -e 's/+/\ /g'`
