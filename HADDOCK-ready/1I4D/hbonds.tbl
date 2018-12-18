@@ -1,0 +1,31 @@
+! Restraints to fix 'GNP' in its initial position
+assi (segi B    and resi   16 and name "NZ"  )
+     (segi B    and resi  200 and name "PG"  )  3.842 1.0 1.0
+assi (segi B    and resi   35 and name "OG1" )
+     (segi B    and resi  200 and name "O2G" )  3.295 1.0 1.0
+assi (segi B    and resi   34 and name "CB"  )
+     (segi B    and resi  200 and name "O3G" )  3.554 1.0 1.0
+assi (segi B    and resi   13 and name "N"   )
+     (segi B    and resi  200 and name "N3B" )  3.074 1.0 1.0
+assi (segi B    and resi   17 and name "OG1" )
+     (segi B    and resi  200 and name "O2B" )  2.946 1.0 1.0
+assi (segi B    and resi   15 and name "N"   )
+     (segi B    and resi  200 and name "O3A" )  3.209 1.0 1.0
+assi (segi B    and resi   18 and name "N"   )
+     (segi B    and resi  200 and name "O1A" )  2.801 1.0 1.0
+assi (segi B    and resi   33 and name "O"   )
+     (segi B    and resi  200 and name "O2A" )  3.949 1.0 1.0
+assi (segi B    and resi  116 and name "NZ"  )
+     (segi B    and resi  200 and name "O4*" )  3.125 1.0 1.0
+assi (segi B    and resi   32 and name "CB"  )
+     (segi B    and resi  200 and name "C3*" )  3.408 1.0 1.0
+assi (segi B    and resi   31 and name "OE2" )
+     (segi B    and resi  200 and name "O3*" )  3.026 1.0 1.0
+assi (segi B    and resi   28 and name "CZ"  )
+     (segi B    and resi  200 and name "O2*" )  3.384 1.0 1.0
+assi (segi B    and resi  118 and name "OD1" )
+     (segi B    and resi  200 and name "C6"  )  3.556 1.0 1.0
+assi (segi B    and resi  159 and name "N"   )
+     (segi B    and resi  200 and name "O6"  )  2.977 1.0 1.0
+assign (segid A and resi 195 and name CA) (segid A and resi 705 and name CA) 42.699 0.0 0.0
+assign (segid A and resi 128 and name CA) (segid A and resi 714 and name CA) 50.545 0.0 0.0

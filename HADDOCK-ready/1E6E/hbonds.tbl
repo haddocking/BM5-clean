@@ -1,0 +1,33 @@
+! Restraints to fix 'FAD' in its initial position
+assi (segi A    and resi   46 and name "N"   )
+     (segi A    and resi  801 and name "AP"  )  3.955 1.0 1.0
+assi (segi A    and resi   15 and name "CA"  )
+     (segi A    and resi  801 and name "AO5*")  3.803 1.0 1.0
+assi (segi A    and resi  101 and name "O"   )
+     (segi A    and resi  801 and name "AC5*")  3.511 1.0 1.0
+assi (segi A    and resi   13 and name "CA"  )
+     (segi A    and resi  801 and name "AC4*")  3.611 1.0 1.0
+assi (segi A    and resi   38 and name "OE1" )
+     (segi A    and resi  801 and name "AC3*")  3.387 1.0 1.0
+assi (segi A    and resi  102 and name "CB"  )
+     (segi A    and resi  801 and name "AN9" )  3.781 1.0 1.0
+assi (segi A    and resi   39 and name "CE"  )
+     (segi A    and resi  801 and name "AN7" )  3.523 1.0 1.0
+assi (segi A    and resi  376 and name "CG1" )
+     (segi A    and resi  801 and name "N1"  )  3.195 1.0 1.0
+assi (segi A    and resi   51 and name "CG2" )
+     (segi A    and resi  801 and name "C4"  )  4.102 1.0 1.0
+assi (segi A    and resi   50 and name "O"   )
+     (segi A    and resi  801 and name "C6"  )  3.453 1.0 1.0
+assi (segi A    and resi  331 and name "CE2" )
+     (segi A    and resi  801 and name "C8M" )  3.482 1.0 1.0
+assi (segi A    and resi  367 and name "CH2" )
+     (segi A    and resi  801 and name "C9"  )  4.058 1.0 1.0
+assi (segi A    and resi  374 and name "O"   )
+     (segi A    and resi  801 and name "O3*" )  3.114 1.0 1.0
+assi (segi A    and resi   16 and name "CG"  )
+     (segi A    and resi  801 and name "C4*" )  3.850 1.0 1.0
+assi (segi A    and resi   17 and name "CB"  )
+     (segi A    and resi  801 and name "P"   )  3.729 1.0 1.0
+assi (segi A    and resi  103 and name "CA"  )
+     (segi A    and resi  801 and name "O3P" )  3.735 1.0 1.0

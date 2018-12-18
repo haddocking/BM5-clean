@@ -1,0 +1,23 @@
+! Restraints to fix 'ATP' in its initial position
+assi (segi A    and resi  157 and name "N"   )
+     (segi A    and resi  480 and name "PG"  )  3.358 1.0 1.0
+assi (segi A    and resi   14 and name "N"   )
+     (segi A    and resi  480 and name "O1G" )  3.498 1.0 1.0
+assi (segi A    and resi  156 and name "CA"  )
+     (segi A    and resi  480 and name "O3G" )  2.678 1.0 1.0
+assi (segi A    and resi   16 and name "N"   )
+     (segi A    and resi  480 and name "O1B" )  2.780 1.0 1.0
+assi (segi A    and resi   13 and name "CA"  )
+     (segi A    and resi  480 and name "O2B" )  3.570 1.0 1.0
+assi (segi A    and resi  302 and name "N"   )
+     (segi A    and resi  480 and name "O1A" )  3.100 1.0 1.0
+assi (segi A    and resi   18 and name "NZ"  )
+     (segi A    and resi  480 and name "O2A" )  2.652 1.0 1.0
+assi (segi A    and resi  214 and name "OE1" )
+     (segi A    and resi  480 and name "C2*" )  3.478 1.0 1.0
+assi (segi A    and resi  303 and name "CG2" )
+     (segi A    and resi  480 and name "C1*" )  3.660 1.0 1.0
+assi (segi A    and resi  305 and name "CB"  )
+     (segi A    and resi  480 and name "C5"  )  3.559 1.0 1.0
+assi (segi A    and resi  306 and name "CZ"  )
+     (segi A    and resi  480 and name "C2"  )  3.330 1.0 1.0

@@ -1,0 +1,23 @@
+! Restraints to fix 'RTL' in its initial position
+assi (segi B    and resi   57 and name "CB"  )
+     (segi B    and resi  176 and name "C1"  )  4.535 1.0 1.0
+assi (segi B    and resi  104 and name "CE1" )
+     (segi B    and resi  176 and name "C2"  )  4.048 1.0 1.0
+assi (segi B    and resi   45 and name "CZ"  )
+     (segi B    and resi  176 and name "C3"  )  3.976 1.0 1.0
+assi (segi B    and resi   88 and name "CE"  )
+     (segi B    and resi  176 and name "C6"  )  3.642 1.0 1.0
+assi (segi B    and resi   73 and name "CG"  )
+     (segi B    and resi  176 and name "C8"  )  4.440 1.0 1.0
+assi (segi B    and resi   90 and name "CE2" )
+     (segi B    and resi  176 and name "C9"  )  4.436 1.0 1.0
+assi (segi B    and resi   98 and name "NE2" )
+     (segi B    and resi  176 and name "C11" )  4.300 1.0 1.0
+assi (segi B    and resi   61 and name "CG1" )
+     (segi B    and resi  176 and name "C14" )  3.599 1.0 1.0
+assi (segi B    and resi  135 and name "CE2" )
+     (segi B    and resi  176 and name "C17" )  3.916 1.0 1.0
+assi (segi B    and resi   36 and name "CE1" )
+     (segi B    and resi  176 and name "C19" )  4.143 1.0 1.0
+assi (segi B    and resi   35 and name "O"   )
+     (segi B    and resi  176 and name "C20" )  3.274 1.0 1.0

@@ -1,0 +1,21 @@
+! Restraints to fix 'GDP' in its initial position
+assi (segi B    and resi   22 and name "N"   )
+     (segi B    and resi  220 and name "PB"  )  3.748 1.0 1.0
+assi (segi B    and resi   24 and name "OG1" )
+     (segi B    and resi  220 and name "O1B" )  3.060 1.0 1.0
+assi (segi B    and resi   20 and name "N"   )
+     (segi B    and resi  220 and name "O2B" )  3.124 1.0 1.0
+assi (segi B    and resi   23 and name "NZ"  )
+     (segi B    and resi  220 and name "O3B" )  2.879 1.0 1.0
+assi (segi B    and resi   25 and name "OG1" )
+     (segi B    and resi  220 and name "PA"  )  3.765 1.0 1.0
+assi (segi B    and resi  123 and name "NZ"  )
+     (segi B    and resi  220 and name "O4*" )  3.214 1.0 1.0
+assi (segi B    and resi  152 and name "NZ"  )
+     (segi B    and resi  220 and name "O3*" )  5.630 1.0 1.0
+assi (segi B    and resi  122 and name "ND2" )
+     (segi B    and resi  220 and name "N7"  )  3.206 1.0 1.0
+assi (segi B    and resi  151 and name "N"   )
+     (segi B    and resi  220 and name "O6"  )  3.085 1.0 1.0
+assi (segi B    and resi  125 and name "OD1" )
+     (segi B    and resi  220 and name "N1"  )  3.126 1.0 1.0

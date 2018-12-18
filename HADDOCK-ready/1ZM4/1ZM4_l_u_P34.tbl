@@ -1,0 +1,11 @@
+! Restraints to fix 'P34' in its initial position
+assi (segi B    and resi  485 and name "CD"  )
+     (segi B    and resi 1001 and name "N"   )  2.824 1.0 1.0
+assi (segi B    and resi  481 and name "CD1" )
+     (segi B    and resi 1001 and name "CAA" )  3.169 1.0 1.0
+assi (segi B    and resi  471 and name "O"   )
+     (segi B    and resi 1001 and name "CAE" )  3.631 1.0 1.0
+assi (segi B    and resi  470 and name "O"   )
+     (segi B    and resi 1001 and name "CAH" )  3.730 1.0 1.0
+assi (segi B    and resi  441 and name "O"   )
+     (segi B    and resi 1001 and name "CAJ" )  3.237 1.0 1.0

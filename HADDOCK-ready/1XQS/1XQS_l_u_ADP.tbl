@@ -1,0 +1,17 @@
+! Restraints to fix 'ADP' in its initial position
+assi (segi B    and resi  202 and name "N"   )
+     (segi B    and resi  383 and name "PB"  )  4.046 1.0 1.0
+assi (segi B    and resi  201 and name "CA"  )
+     (segi B    and resi  383 and name "O1B" )  5.183 1.0 1.0
+assi (segi B    and resi  339 and name "N"   )
+     (segi B    and resi  383 and name "PA"  )  3.641 1.0 1.0
+assi (segi B    and resi  366 and name "CB"  )
+     (segi B    and resi  383 and name "O2A" )  3.399 1.0 1.0
+assi (segi B    and resi  272 and name "NH1" )
+     (segi B    and resi  383 and name "C8"  )  3.554 1.0 1.0
+assi (segi B    and resi  275 and name "OG"  )
+     (segi B    and resi  383 and name "C6"  )  3.688 1.0 1.0
+assi (segi B    and resi  342 and name "CD"  )
+     (segi B    and resi  383 and name "N6"  )  3.390 1.0 1.0
+assi (segi B    and resi  268 and name "OE2" )
+     (segi B    and resi  383 and name "O2'" )  2.812 1.0 1.0

@@ -1,0 +1,25 @@
+! Restraints to fix 'GTP' in its initial position
+assi (segi A    and resi   30 and name "NZ"  )
+     (segi A    and resi 1001 and name "PG"  )  3.844 1.0 1.0
+assi (segi A    and resi   26 and name "CB"  )
+     (segi A    and resi 1001 and name "O1G" )  3.287 1.0 1.0
+assi (segi A    and resi   48 and name "N"   )
+     (segi A    and resi 1001 and name "O2G" )  2.735 1.0 1.0
+assi (segi A    and resi   27 and name "N"   )
+     (segi A    and resi 1001 and name "O3B" )  3.025 1.0 1.0
+assi (segi A    and resi   31 and name "N"   )
+     (segi A    and resi 1001 and name "O2B" )  2.922 1.0 1.0
+assi (segi A    and resi   29 and name "N"   )
+     (segi A    and resi 1001 and name "O3A" )  3.200 1.0 1.0
+assi (segi A    and resi   32 and name "OG1" )
+     (segi A    and resi 1001 and name "PA"  )  3.684 1.0 1.0
+assi (segi A    and resi   45 and name "OG1" )
+     (segi A    and resi 1001 and name "O2A" )  2.674 1.0 1.0
+assi (segi A    and resi  127 and name "NZ"  )
+     (segi A    and resi 1001 and name "O4*" )  3.384 1.0 1.0
+assi (segi A    and resi  126 and name "ND2" )
+     (segi A    and resi 1001 and name "N7"  )  3.161 1.0 1.0
+assi (segi A    and resi  160 and name "N"   )
+     (segi A    and resi 1001 and name "O6"  )  3.018 1.0 1.0
+assi (segi A    and resi  129 and name "OD2" )
+     (segi A    and resi 1001 and name "N1"  )  2.714 1.0 1.0

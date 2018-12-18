@@ -1,0 +1,5 @@
+! Restraints to fix 'ACE' in its initial position
+assi (segi A    and resi 1003 and name "N"   )
+     (segi A    and resi 1001 and name "C"   )  3.408 1.0 1.0
+assi (segi A    and resi  258 and name "NE"  )
+     (segi A    and resi 1001 and name "CH3" )  3.393 1.0 1.0

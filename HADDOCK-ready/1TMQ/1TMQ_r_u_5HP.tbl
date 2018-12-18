@@ -1,0 +1,5 @@
+! Restraints to fix '5HP' in its initial position
+assi (segi A    and resi    2 and name "N"   )
+     (segi A    and resi    1 and name "N"   )  2.763 1.0 1.0
+assi (segi A    and resi  216 and name "CB"  )
+     (segi A    and resi    1 and name "OD"  )  3.720 1.0 1.0

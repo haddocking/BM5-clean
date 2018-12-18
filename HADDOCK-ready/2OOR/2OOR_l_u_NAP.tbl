@@ -1,0 +1,29 @@
+! Restraints to fix 'NAP' in its initial position
+assi (segi B    and resi  165 and name "NH2" )
+     (segi B    and resi  755 and name "P2B" )  2.998 1.0 1.0
+assi (segi B    and resi  170 and name "CA"  )
+     (segi B    and resi  755 and name "PA"  )  2.841 1.0 1.0
+assi (segi B    and resi  132 and name "OD2" )
+     (segi B    and resi  755 and name "PN"  )  3.068 1.0 1.0
+assi (segi B    and resi  164 and name "NZ"  )
+     (segi B    and resi  755 and name "C1B" )  3.319 1.0 1.0
+assi (segi B    and resi  171 and name "CD2" )
+     (segi B    and resi  755 and name "C1D" )  3.906 1.0 1.0
+assi (segi B    and resi  133 and name "CB"  )
+     (segi B    and resi  755 and name "O1N" )  2.940 1.0 1.0
+assi (segi B    and resi   56 and name "CA"  )
+     (segi B    and resi  755 and name "C2A" )  3.382 1.0 1.0
+assi (segi B    and resi   87 and name "CG2" )
+     (segi B    and resi  755 and name "C2D" )  3.278 1.0 1.0
+assi (segi B    and resi   88 and name "C"   )
+     (segi B    and resi  755 and name "O2N" )  2.561 1.0 1.0
+assi (segi B    and resi  131 and name "CG"  )
+     (segi B    and resi  755 and name "O3B" )  2.773 1.0 1.0
+assi (segi B    and resi  168 and name "CB"  )
+     (segi B    and resi  755 and name "O3X" )  2.861 1.0 1.0
+assi (segi B    and resi   55 and name "CB"  )
+     (segi B    and resi  755 and name "C4B" )  3.356 1.0 1.0
+assi (segi B    and resi   59 and name "O"   )
+     (segi B    and resi  755 and name "N6A" )  3.852 1.0 1.0
+assi (segi B    and resi   90 and name "O"   )
+     (segi B    and resi  755 and name "C7N" )  3.214 1.0 1.0

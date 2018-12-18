@@ -1,0 +1,35 @@
+! Restraints to fix 'NDP' in its initial position
+assi (segi A    and resi  745 and name "CD"  )
+     (segi A    and resi 1501 and name "PA"  )  3.733 1.0 1.0
+assi (segi A    and resi  746 and name "N"   )
+     (segi A    and resi 1501 and name "O2A" )  2.866 1.0 1.0
+assi (segi A    and resi  749 and name "N"   )
+     (segi A    and resi 1501 and name "O5B" )  3.531 1.0 1.0
+assi (segi A    and resi  823 and name "O"   )
+     (segi A    and resi 1501 and name "C5B" )  3.121 1.0 1.0
+assi (segi A    and resi  764 and name "NH2" )
+     (segi A    and resi 1501 and name "C4B" )  3.859 1.0 1.0
+assi (segi A    and resi  829 and name "NE2" )
+     (segi A    and resi 1501 and name "C2B" )  3.190 1.0 1.0
+assi (segi A    and resi  754 and name "NZ"  )
+     (segi A    and resi 1501 and name "O2B" )  3.688 1.0 1.0
+assi (segi A    and resi  833 and name "ND2" )
+     (segi A    and resi 1501 and name "N7A" )  3.014 1.0 1.0
+assi (segi A    and resi  752 and name "CB"  )
+     (segi A    and resi 1501 and name "N1A" )  4.153 1.0 1.0
+assi (segi A    and resi  744 and name "CA"  )
+     (segi A    and resi 1501 and name "O3"  )  3.962 1.0 1.0
+assi (segi A    and resi  557 and name "CE3" )
+     (segi A    and resi 1501 and name "C5D" )  3.848 1.0 1.0
+assi (segi A    and resi  822 and name "O"   )
+     (segi A    and resi 1501 and name "C4D" )  4.090 1.0 1.0
+assi (segi A    and resi  743 and name "CB"  )
+     (segi A    and resi 1501 and name "O4D" )  3.199 1.0 1.0
+assi (segi A    and resi  555 and name "CA"  )
+     (segi A    and resi 1501 and name "O3D" )  2.560 1.0 1.0
+assi (segi A    and resi  590 and name "OH"  )
+     (segi A    and resi 1501 and name "C2D" )  3.725 1.0 1.0
+assi (segi A    and resi  825 and name "OG"  )
+     (segi A    and resi 1501 and name "P2B" )  3.701 1.0 1.0
+assi (segi A    and resi  563 and name "NE2" )
+     (segi A    and resi 1501 and name "O3X" )  3.081 1.0 1.0

@@ -1,0 +1,25 @@
+! Restraints to fix 'FAD' in its initial position
+assi (segi A    and resi   77 and name "NH2" )
+     (segi A    and resi  304 and name "AP"  )  3.825 1.0 1.0
+assi (segi A    and resi  116 and name "N"   )
+     (segi A    and resi  304 and name "AO2" )  2.935 1.0 1.0
+assi (segi A    and resi  102 and name "CD2" )
+     (segi A    and resi  304 and name "AO5*")  3.844 1.0 1.0
+assi (segi A    and resi  104 and name "OH"  )
+     (segi A    and resi  304 and name "AO4*")  3.711 1.0 1.0
+assi (segi A    and resi   79 and name "CE1" )
+     (segi A    and resi  304 and name "N1"  )  3.563 1.0 1.0
+assi (segi A    and resi  100 and name "N"   )
+     (segi A    and resi  304 and name "O2"  )  3.188 1.0 1.0
+assi (segi A    and resi  157 and name "OG1" )
+     (segi A    and resi  304 and name "N3"  )  3.422 1.0 1.0
+assi (segi A    and resi  303 and name "OH"  )
+     (segi A    and resi  304 and name "C4"  )  3.716 1.0 1.0
+assi (segi A    and resi   78 and name "O"   )
+     (segi A    and resi  304 and name "C5A" )  3.436 1.0 1.0
+assi (segi A    and resi  117 and name "N"   )
+     (segi A    and resi  304 and name "P"   )  3.573 1.0 1.0
+assi (segi A    and resi  118 and name "OG"  )
+     (segi A    and resi  304 and name "O2P" )  2.376 1.0 1.0
+assi (segi A    and resi  115 and name "CA"  )
+     (segi A    and resi  304 and name "O3P" )  3.425 1.0 1.0

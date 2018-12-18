@@ -1,0 +1,34 @@
+! Restraints to fix 'GDP' in its initial position
+assi (segi B    and resi   32 and name "CA"  )
+     (segi B    and resi  203 and name "PA"  )  3.658 1.0 1.0
+assi (segi B    and resi   30 and name "N"   )
+     (segi B    and resi  203 and name "PB"  )  3.454 1.0 1.0
+assi (segi B    and resi  134 and name "NZ"  )
+     (segi B    and resi  203 and name "O4'" )  3.222 1.0 1.0
+assi (segi B    and resi   47 and name "O"   )
+     (segi B    and resi  203 and name "C3'" )  3.947 1.0 1.0
+assi (segi B    and resi   35 and name "SG"  )
+     (segi B    and resi  203 and name "C2'" )  3.801 1.0 1.0
+assi (segi B    and resi  136 and name "OD1" )
+     (segi B    and resi  203 and name "N1"  )  2.739 1.0 1.0
+assi (segi B    and resi   33 and name "NZ"  )
+     (segi B    and resi  203 and name "O1B" )  2.806 1.0 1.0
+assi (segi B    and resi  164 and name "CD"  )
+     (segi B    and resi  203 and name "C2"  )  3.824 1.0 1.0
+assi (segi B    and resi   34 and name "CB"  )
+     (segi B    and resi  203 and name "O2A" )  4.247 1.0 1.0
+assi (segi B    and resi  163 and name "N"   )
+     (segi B    and resi  203 and name "O6"  )  2.765 1.0 1.0
+assi (segi B    and resi  133 and name "ND2" )
+     (segi B    and resi  203 and name "N7"  )  3.294 1.0 1.0
+! Restraints to fix 'MSE' in its initial position
+assi (segi B    and resi   20 and name "C"   )
+     (segi B    and resi   21 and name "N"   )  1.328 1.0 1.0
+assi (segi B    and resi   22 and name "N"   )
+     (segi B    and resi   21 and name "CA"  )  2.438 1.0 1.0
+assi (segi B    and resi  180 and name "CG2" )
+     (segi B    and resi   21 and name "CG"  )  3.777 1.0 1.0
+assi (segi B    and resi  181 and name "OE1" )
+     (segi B    and resi   21 and name "CE"  )  3.466 1.0 1.0
+assi (segi B    and resi   69 and name "CG1" )
+     (segi B    and resi   21 and name "SE"  )  3.765 1.0 1.0

@@ -1,0 +1,9 @@
+! Restraints to fix 'SOC' in its initial position
+assi (segi A    and resi  220 and name "C"   )
+     (segi A    and resi  221 and name "N"   )  1.328 1.0 1.0
+assi (segi A    and resi  222 and name "N"   )
+     (segi A    and resi  221 and name "CB"  )  3.350 1.0 1.0
+assi (segi A    and resi   64 and name "NE2" )
+     (segi A    and resi  221 and name "SE"  )  3.672 1.0 1.0
+assi (segi A    and resi  155 and name "ND2" )
+     (segi A    and resi  221 and name "OD2" )  2.749 1.0 1.0

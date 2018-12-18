@@ -1,0 +1,59 @@
+Content-type: text/plain
+
+! HADDOCK AIR restraints for 1st partner
+!
+assign ( resid 8  and segid A)
+       (
+        ( resid 20  and segid B)
+     or
+        ( resid 26  and segid B)
+     or
+        ( resid 130  and segid B)
+       )  2.0 2.0 0.0
+!
+assign ( resid 28  and segid A)
+       (
+        ( resid 20  and segid B)
+     or
+        ( resid 26  and segid B)
+     or
+        ( resid 130  and segid B)
+       )  2.0 2.0 0.0
+!
+assign ( resid 119  and segid A)
+       (
+        ( resid 20  and segid B)
+     or
+        ( resid 26  and segid B)
+     or
+        ( resid 130  and segid B)
+       )  2.0 2.0 0.0
+!
+! HADDOCK AIR restraints for 2nd partner
+!
+assign ( resid 20  and segid B)
+       (
+        ( resid 8  and segid A)
+     or
+        ( resid 28  and segid A)
+     or
+        ( resid 119  and segid A)
+       )  2.0 2.0 0.0
+!
+assign ( resid 26  and segid B)
+       (
+        ( resid 8  and segid A)
+     or
+        ( resid 28  and segid A)
+     or
+        ( resid 119  and segid A)
+       )  2.0 2.0 0.0
+!
+assign ( resid 130  and segid B)
+       (
+        ( resid 8  and segid A)
+     or
+        ( resid 28  and segid A)
+     or
+        ( resid 119  and segid A)
+       )  2.0 2.0 0.0

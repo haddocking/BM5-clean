@@ -1,0 +1,21 @@
+! Restraints to fix 'PLP' in its initial position
+assi (segi A    and resi  180 and name "OD1" )
+     (segi A    and resi  764 and name "N1"  )  2.807 1.0 1.0
+assi (segi A    and resi  104 and name "ND1" )
+     (segi A    and resi  764 and name "C2"  )  3.355 1.0 1.0
+assi (segi A    and resi  151 and name "CE"  )
+     (segi A    and resi  764 and name "C2A" )  3.380 1.0 1.0
+assi (segi A    and resi  206 and name "NZ"  )
+     (segi A    and resi  764 and name "C3"  )  3.198 1.0 1.0
+assi (segi A    and resi  183 and name "NE2" )
+     (segi A    and resi  764 and name "O3"  )  2.646 1.0 1.0
+assi (segi A    and resi   76 and name "OG1" )
+     (segi A    and resi  764 and name "C5A" )  3.542 1.0 1.0
+assi (segi A    and resi   75 and name "CB"  )
+     (segi A    and resi  764 and name "O4P" )  3.400 1.0 1.0
+assi (segi A    and resi  205 and name "NE2" )
+     (segi A    and resi  764 and name "P"   )  3.709 1.0 1.0
+assi (segi A    and resi  203 and name "OG"  )
+     (segi A    and resi  764 and name "O1P" )  2.917 1.0 1.0
+assi (segi A    and resi  743 and name "OG1" )
+     (segi A    and resi  764 and name "O2P" )  2.388 1.0 1.0

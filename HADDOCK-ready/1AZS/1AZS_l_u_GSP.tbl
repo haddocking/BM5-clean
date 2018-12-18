@@ -1,0 +1,27 @@
+! Restraints to fix 'GSP' in its initial position
+assi (segi B    and resi   50 and name "N"   )
+     (segi B    and resi  395 and name "PG"  )  3.852 1.0 1.0
+assi (segi B    and resi  204 and name "CB"  )
+     (segi B    and resi  395 and name "O2G" )  3.104 1.0 1.0
+assi (segi B    and resi   53 and name "NZ"  )
+     (segi B    and resi  395 and name "O3G" )  2.816 1.0 1.0
+assi (segi B    and resi   54 and name "N"   )
+     (segi B    and resi  395 and name "O2B" )  2.996 1.0 1.0
+assi (segi B    and resi   55 and name "OG1" )
+     (segi B    and resi  395 and name "PA"  )  3.393 1.0 1.0
+assi (segi B    and resi  201 and name "CG"  )
+     (segi B    and resi  395 and name "O2A" )  4.178 1.0 1.0
+assi (segi B    and resi  173 and name "CB"  )
+     (segi B    and resi  395 and name "C4'" )  3.865 1.0 1.0
+assi (segi B    and resi  199 and name "O"   )
+     (segi B    and resi  395 and name "C3'" )  3.663 1.0 1.0
+assi (segi B    and resi  198 and name "O"   )
+     (segi B    and resi  395 and name "O2'" )  2.863 1.0 1.0
+assi (segi B    and resi  293 and name "CE"  )
+     (segi B    and resi  395 and name "N9"  )  3.917 1.0 1.0
+assi (segi B    and resi  292 and name "ND2" )
+     (segi B    and resi  395 and name "N7"  )  3.116 1.0 1.0
+assi (segi B    and resi  295 and name "OD1" )
+     (segi B    and resi  395 and name "N1"  )  2.970 1.0 1.0
+assi (segi B    and resi  367 and name "CG1" )
+     (segi B    and resi  395 and name "N3"  )  3.834 1.0 1.0

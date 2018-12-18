@@ -1,0 +1,9 @@
+! Restraints to fix 'FES' in its initial position
+assi (segi B    and resi   63 and name "SG"  )
+     (segi B    and resi 1001 and name "FE1" )  2.302 1.0 1.0
+assi (segi B    and resi   45 and name "ND1" )
+     (segi B    and resi 1001 and name "FE2" )  2.182 1.0 1.0
+assi (segi B    and resi   46 and name "N"   )
+     (segi B    and resi 1001 and name "S1"  )  3.261 1.0 1.0
+assi (segi B    and resi   68 and name "N"   )
+     (segi B    and resi 1001 and name "S2"  )  3.583 1.0 1.0

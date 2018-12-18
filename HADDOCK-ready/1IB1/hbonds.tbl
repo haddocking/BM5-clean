@@ -1,0 +1,37 @@
+! Restraints to fix 'COT' in its initial position
+assi (segi B    and resi  159 and name "CE"  )
+     (segi B    and resi  901 and name "C1T" )  3.656 1.0 1.0
+assi (segi B    and resi   56 and name "CD2" )
+     (segi B    and resi  901 and name "CD2T")  4.125 1.0 1.0
+assi (segi B    and resi  161 and name "OE1" )
+     (segi B    and resi  901 and name "CE3T")  3.542 1.0 1.0
+assi (segi B    and resi  168 and name "OH"  )
+     (segi B    and resi  901 and name "S"   )  3.116 1.0 1.0
+assi (segi B    and resi  124 and name "N"   )
+     (segi B    and resi  901 and name "C4T" )  3.895 1.0 1.0
+assi (segi B    and resi  126 and name "CG2" )
+     (segi B    and resi  901 and name "OPB3")  3.402 1.0 1.0
+assi (segi B    and resi  132 and name "N"   )
+     (segi B    and resi  901 and name "PB"  )  3.787 1.0 1.0
+assi (segi B    and resi  136 and name "N"   )
+     (segi B    and resi  901 and name "OPB1")  3.125 1.0 1.0
+assi (segi B    and resi  170 and name "NH1" )
+     (segi B    and resi  901 and name "O3*A")  3.280 1.0 1.0
+assi (segi B    and resi  137 and name "OG"  )
+     (segi B    and resi  901 and name "PA"  )  3.887 1.0 1.0
+assi (segi B    and resi  167 and name "CE1" )
+     (segi B    and resi  901 and name "C5*A")  4.395 1.0 1.0
+assi (segi B    and resi  164 and name "CD2" )
+     (segi B    and resi  901 and name "N9A" )  3.868 1.0 1.0
+assi (segi B    and resi  163 and name "CB"  )
+     (segi B    and resi  901 and name "N1A" )  4.072 1.0 1.0
+assi (segi B    and resi   55 and name "O"   )
+     (segi B    and resi  901 and name "C6P" )  3.868 1.0 1.0
+assi (segi B    and resi  131 and name "NH2" )
+     (segi B    and resi  901 and name "C7P" )  3.947 1.0 1.0
+assign (segid A and resi 59 and name CA) (segid A and resi 218 and name CA) 28.723 0.0 0.0
+assign (segid A and resi 36 and name CA) (segid A and resi 225 and name CA) 33.451 0.0 0.0
+assign (segid A and resi 4 and name CA) (segid A and resi 694 and name CA) 54.584 0.0 0.0
+assign (segid A and resi 45 and name CA) (segid A and resi 590 and name CA) 27.715 0.0 0.0
+assign (segid A and resi 168 and name CA) (segid A and resi 678 and name CA) 53.774 0.0 0.0
+assign (segid A and resi 132 and name CA) (segid A and resi 589 and name CA) 32.734 0.0 0.0

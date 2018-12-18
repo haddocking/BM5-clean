@@ -1,0 +1,33 @@
+! Restraints to fix 'PLP' in its initial position
+assi (segi A    and resi  180 and name "OD1" )
+     (segi A    and resi  764 and name "N1"  )  2.807 1.0 1.0
+assi (segi A    and resi  104 and name "ND1" )
+     (segi A    and resi  764 and name "C2"  )  3.355 1.0 1.0
+assi (segi A    and resi  151 and name "CE"  )
+     (segi A    and resi  764 and name "C2A" )  3.380 1.0 1.0
+assi (segi A    and resi  206 and name "NZ"  )
+     (segi A    and resi  764 and name "C3"  )  3.198 1.0 1.0
+assi (segi A    and resi  183 and name "NE2" )
+     (segi A    and resi  764 and name "O3"  )  2.646 1.0 1.0
+assi (segi A    and resi   76 and name "OG1" )
+     (segi A    and resi  764 and name "C5A" )  3.542 1.0 1.0
+assi (segi A    and resi   75 and name "CB"  )
+     (segi A    and resi  764 and name "O4P" )  3.400 1.0 1.0
+assi (segi A    and resi  205 and name "NE2" )
+     (segi A    and resi  764 and name "P"   )  3.709 1.0 1.0
+assi (segi A    and resi  203 and name "OG"  )
+     (segi A    and resi  764 and name "O1P" )  2.917 1.0 1.0
+assi (segi A    and resi  743 and name "OG1" )
+     (segi A    and resi  764 and name "O2P" )  2.388 1.0 1.0
+assign (segid A and resi 281 and name CA) (segid A and resi 336 and name CA) 21.374 0.0 0.0
+assign (segid A and resi 171 and name CA) (segid A and resi 375 and name CA) 51.018 0.0 0.0
+assign (segid A and resi 273 and name CA) (segid A and resi 693 and name CA) 55.101 0.0 0.0
+assign (segid A and resi 127 and name CA) (segid A and resi 619 and name CA) 44.689 0.0 0.0
+assign (segid A and resi 250 and name CA) (segid A and resi 852 and name CA) 33.119 0.0 0.0
+assign (segid A and resi 125 and name CA) (segid A and resi 893 and name CA) 81.183 0.0 0.0
+assign (segid A and resi 355 and name CA) (segid A and resi 700 and name CA) 41.120 0.0 0.0
+assign (segid A and resi 372 and name CA) (segid A and resi 809 and name CA) 75.983 0.0 0.0
+assign (segid A and resi 355 and name CA) (segid A and resi 844 and name CA) 63.795 0.0 0.0
+assign (segid A and resi 391 and name CA) (segid A and resi 840 and name CA) 84.341 0.0 0.0
+assign (segid A and resi 673 and name CA) (segid A and resi 890 and name CA) 50.977 0.0 0.0
+assign (segid A and resi 554 and name CA) (segid A and resi 848 and name CA) 43.809 0.0 0.0

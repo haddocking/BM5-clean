@@ -1,0 +1,63 @@
+Analysis scripts: (to be run sequentially)
+=================
+
+i-rmsd_to_xray.csh: 
+
+   calculate interface RMSD (backbone of all residues within 5A of 
+   partner protein in reference structure)
+
+   usage: 
+          i-rmsd_to_xray.csh pdbfile1 pdbfile2 ...
+       or
+          i-rmsd_to_xray.csh `cat file.nam`
+
+
+l-rmsd-xray.csh: 
+
+   calculate ligand RMSD (backbone of ligand after fit on receptor)
+
+   usage: 
+          l-rmsd_to_xray.csh pdbfile1 pdbfile2 ...
+       or
+          l-rmsd_to_xray.csh `cat file.nam`
+
+
+ana_structures.csh (called from the HADDOCK tools directory)
+
+   HADDOCK structure statistic analysis script, but uses interface RMSDs
+   instead of RMSD from lowest energy structure if data present (i-RMSD.dat)
+
+
+ana_cluster.csh (called from the HADDOCK tools directory)
+
+   HADDOCK cluster statistic analysis script, but uses interface RMSDs
+   instead of RMSD from lowest energy structure if data present (i-RMSD.dat)
+
+
+fraction-native.csh
+
+   Calculate the fraction of native contacts. Output in file.nam_fnat
+   
+   usage:
+          fraction-native.csh pdbfile1 pdbfile2 ...
+       or
+          fraction-native.csh  `cat file.nam`
+
+
+cluster-fnat.csh
+
+   Calculate the per-cluster average fraction of native contacts
+
+   usage:
+          cluster-fnat.csh  [nbest]
+
+	  nbest is optional and can be defined to calculated in addition the
+	  average over the nbest structures of a cluster
+
+
+run_all.csh:
+
+   Run all the above scripts for the water, it1 and it0 structures.
+
+   Usage:
+          run_all.csh  run-directory

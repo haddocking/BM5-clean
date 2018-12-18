@@ -1,0 +1,29 @@
+! Restraints to fix 'HEM' in its initial position
+assi (segi B    and resi   18 and name "NE2" )
+     (segi B    and resi    1 and name "FE"  )  1.986 1.0 1.0
+assi (segi B    and resi   80 and name "CE"  )
+     (segi B    and resi    1 and name "CHC" )  3.502 1.0 1.0
+assi (segi B    and resi   17 and name "CB"  )
+     (segi B    and resi    1 and name "CHD" )  3.733 1.0 1.0
+assi (segi B    and resi   67 and name "OH"  )
+     (segi B    and resi    1 and name "C2A" )  3.765 1.0 1.0
+assi (segi B    and resi   64 and name "SD"  )
+     (segi B    and resi    1 and name "CMA" )  3.637 1.0 1.0
+assi (segi B    and resi   59 and name "CZ2" )
+     (segi B    and resi    1 and name "CAA" )  3.842 1.0 1.0
+assi (segi B    and resi   35 and name "CD1" )
+     (segi B    and resi    1 and name "CBA" )  3.722 1.0 1.0
+assi (segi B    and resi   48 and name "OH"  )
+     (segi B    and resi    1 and name "O1A" )  2.808 1.0 1.0
+assi (segi B    and resi   14 and name "SG"  )
+     (segi B    and resi    1 and name "C2B" )  3.382 1.0 1.0
+assi (segi B    and resi   13 and name "O"   )
+     (segi B    and resi    1 and name "CMC" )  3.300 1.0 1.0
+assi (segi B    and resi   29 and name "CA"  )
+     (segi B    and resi    1 and name "C2D" )  3.831 1.0 1.0
+assi (segi B    and resi   30 and name "CD"  )
+     (segi B    and resi    1 and name "C3D" )  3.869 1.0 1.0
+assi (segi B    and resi   46 and name "OH"  )
+     (segi B    and resi    1 and name "CMD" )  3.267 1.0 1.0
+assi (segi B    and resi   78 and name "OG1" )
+     (segi B    and resi    1 and name "CBD" )  3.393 1.0 1.0

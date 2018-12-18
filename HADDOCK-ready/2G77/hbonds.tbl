@@ -1,0 +1,40 @@
+! Restraints to fix 'GNP' in its initial position
+assi (segi B    and resi   45 and name "CA"  )
+     (segi B    and resi  204 and name "PA"  )  3.711 1.0 1.0
+assi (segi B    and resi   46 and name "N"   )
+     (segi B    and resi  204 and name "PB"  )  3.618 1.0 1.0
+assi (segi B    and resi   42 and name "OG"  )
+     (segi B    and resi  204 and name "PG"  )  3.708 1.0 1.0
+assi (segi B    and resi   43 and name "OD1" )
+     (segi B    and resi  204 and name "C5'" )  3.160 1.0 1.0
+assi (segi B    and resi  149 and name "NZ"  )
+     (segi B    and resi  204 and name "O4'" )  3.102 1.0 1.0
+assi (segi B    and resi   62 and name "OG1" )
+     (segi B    and resi  204 and name "C3'" )  3.852 1.0 1.0
+assi (segi B    and resi   48 and name "SG"  )
+     (segi B    and resi  204 and name "C2'" )  3.790 1.0 1.0
+assi (segi B    and resi   58 and name "CZ"  )
+     (segi B    and resi  204 and name "O2'" )  3.399 1.0 1.0
+assi (segi B    and resi  151 and name "OD1" )
+     (segi B    and resi  204 and name "N1"  )  2.904 1.0 1.0
+assi (segi B    and resi   47 and name "OG1" )
+     (segi B    and resi  204 and name "O2B" )  2.896 1.0 1.0
+assi (segi B    and resi   65 and name "N"   )
+     (segi B    and resi  204 and name "O2G" )  2.768 1.0 1.0
+assi (segi B    and resi  179 and name "N"   )
+     (segi B    and resi  204 and name "O6"  )  2.943 1.0 1.0
+assi (segi B    and resi  148 and name "ND2" )
+     (segi B    and resi  204 and name "N7"  )  3.048 1.0 1.0
+! Restraints to fix 'MSE' in its initial position
+assi (segi A    and resi  412 and name "C"   )
+     (segi A    and resi  413 and name "N"   )  1.330 1.0 1.0
+assi (segi A    and resi  414 and name "N"   )
+     (segi A    and resi  413 and name "CA"  )  2.434 1.0 1.0
+assi (segi A    and resi  409 and name "O"   )
+     (segi A    and resi  413 and name "CB"  )  3.257 1.0 1.0
+assi (segi A    and resi  417 and name "O"   )
+     (segi A    and resi  413 and name "CE"  )  3.494 1.0 1.0
+assi (segi A    and resi  392 and name "CD2" )
+     (segi A    and resi  413 and name "SE"  )  3.414 1.0 1.0
+assign (segid A and resi 473 and name CA) (segid A and resi 573 and name CA) 26.062 0.0 0.0
+assign (segid A and resi 385 and name CA) (segid A and resi 609 and name CA) 20.954 0.0 0.0

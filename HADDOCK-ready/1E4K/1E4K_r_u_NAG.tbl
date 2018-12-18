@@ -1,0 +1,9 @@
+! Restraints to fix 'NAG' in its initial position
+assi (segi A    and resi  297 and name "ND2" )
+     (segi A    and resi    1 and name "C1"  )  1.459 1.0 1.0
+assi (segi A    and resi  265 and name "OD2" )
+     (segi A    and resi    1 and name "C3"  )  3.481 1.0 1.0
+assi (segi A    and resi  295 and name "OE1" )
+     (segi A    and resi    1 and name "C6"  )  3.445 1.0 1.0
+assi (segi A    and resi  264 and name "CG1" )
+     (segi A    and resi    1 and name "O4"  )  3.807 1.0 1.0

@@ -1,0 +1,31 @@
+! Restraints to fix 'GTN' in its initial position
+assi (segi B    and resi   13 and name "N"   )
+     (segi B    and resi  167 and name "PG"  )  3.854 1.0 1.0
+assi (segi B    and resi   34 and name "CA"  )
+     (segi B    and resi  167 and name "O1G" )  3.583 1.0 1.0
+assi (segi B    and resi   35 and name "N"   )
+     (segi B    and resi  167 and name "O2G" )  3.212 1.0 1.0
+assi (segi B    and resi   16 and name "NZ"  )
+     (segi B    and resi  167 and name "O3G" )  2.700 1.0 1.0
+assi (segi B    and resi   17 and name "N"   )
+     (segi B    and resi  167 and name "O2B" )  2.949 1.0 1.0
+assi (segi B    and resi   15 and name "CA"  )
+     (segi B    and resi  167 and name "PA"  )  3.879 1.0 1.0
+assi (segi B    and resi   18 and name "N"   )
+     (segi B    and resi  167 and name "O1A" )  2.790 1.0 1.0
+assi (segi B    and resi   33 and name "O"   )
+     (segi B    and resi  167 and name "O2A" )  4.313 1.0 1.0
+assi (segi B    and resi  117 and name "NZ"  )
+     (segi B    and resi  167 and name "C4*" )  4.126 1.0 1.0
+assi (segi B    and resi   31 and name "O"   )
+     (segi B    and resi  167 and name "C3*" )  3.726 1.0 1.0
+assi (segi B    and resi   29 and name "O"   )
+     (segi B    and resi  167 and name "C2*" )  3.610 1.0 1.0
+assi (segi B    and resi   28 and name "CE1" )
+     (segi B    and resi  167 and name "N9"  )  3.882 1.0 1.0
+assi (segi B    and resi  116 and name "ND2" )
+     (segi B    and resi  167 and name "N7"  )  3.246 1.0 1.0
+assi (segi B    and resi  146 and name "N"   )
+     (segi B    and resi  167 and name "O6"  )  2.825 1.0 1.0
+assi (segi B    and resi  119 and name "OD1" )
+     (segi B    and resi  167 and name "N1"  )  2.967 1.0 1.0

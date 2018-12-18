@@ -1,0 +1,27 @@
+! Restraints to fix 'GNP' in its initial position
+assi (segi A    and resi   23 and name "NZ"  )
+     (segi A    and resi  250 and name "PG"  )  3.293 1.0 1.0
+assi (segi A    and resi   39 and name "OH"  )
+     (segi A    and resi  250 and name "O1G" )  2.951 1.0 1.0
+assi (segi A    and resi   42 and name "OG1" )
+     (segi A    and resi  250 and name "O2G" )  2.606 1.0 1.0
+assi (segi A    and resi   20 and name "N"   )
+     (segi A    and resi  250 and name "N3B" )  2.887 1.0 1.0
+assi (segi A    and resi   22 and name "N"   )
+     (segi A    and resi  250 and name "O1B" )  2.523 1.0 1.0
+assi (segi A    and resi   24 and name "OG1" )
+     (segi A    and resi  250 and name "O2B" )  2.874 1.0 1.0
+assi (segi A    and resi   25 and name "OG1" )
+     (segi A    and resi  250 and name "PA"  )  3.545 1.0 1.0
+assi (segi A    and resi  123 and name "NZ"  )
+     (segi A    and resi  250 and name "C4*" )  3.944 1.0 1.0
+assi (segi A    and resi   37 and name "O"   )
+     (segi A    and resi  250 and name "C3*" )  3.487 1.0 1.0
+assi (segi A    and resi   36 and name "O"   )
+     (segi A    and resi  250 and name "C2*" )  3.071 1.0 1.0
+assi (segi A    and resi  122 and name "ND2" )
+     (segi A    and resi  250 and name "N7"  )  2.812 1.0 1.0
+assi (segi A    and resi  125 and name "OD1" )
+     (segi A    and resi  250 and name "N1"  )  2.651 1.0 1.0
+assi (segi A    and resi   35 and name "CZ"  )
+     (segi A    and resi  250 and name "N3"  )  3.393 1.0 1.0

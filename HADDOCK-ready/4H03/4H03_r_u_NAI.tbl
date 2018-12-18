@@ -1,0 +1,25 @@
+! Restraints to fix 'NAI' in its initial position
+assi (segi A    and resi  295 and name "NH2" )
+     (segi A    and resi  500 and name "PA"  )  4.041 1.0 1.0
+assi (segi A    and resi  251 and name "CD2" )
+     (segi A    and resi  500 and name "O2A" )  4.210 1.0 1.0
+assi (segi A    and resi  352 and name "NH2" )
+     (segi A    and resi  500 and name "C3B" )  4.235 1.0 1.0
+assi (segi A    and resi  300 and name "NE2" )
+     (segi A    and resi  500 and name "O3B" )  3.696 1.0 1.0
+assi (segi A    and resi  301 and name "OE2" )
+     (segi A    and resi  500 and name "C2B" )  3.135 1.0 1.0
+assi (segi A    and resi  335 and name "ND2" )
+     (segi A    and resi  500 and name "C8A" )  3.543 1.0 1.0
+assi (segi A    and resi  259 and name "CD1" )
+     (segi A    and resi  500 and name "C6A" )  3.741 1.0 1.0
+assi (segi A    and resi  349 and name "CE2" )
+     (segi A    and resi  500 and name "O5D" )  3.279 1.0 1.0
+assi (segi A    and resi  338 and name "OG"  )
+     (segi A    and resi  500 and name "C3D" )  4.588 1.0 1.0
+assi (segi A    and resi  380 and name "OE1" )
+     (segi A    and resi  500 and name "O2D" )  3.046 1.0 1.0
+assi (segi A    and resi  296 and name "N"   )
+     (segi A    and resi  500 and name "C7N" )  3.567 1.0 1.0
+assi (segi A    and resi  339 and name "O"   )
+     (segi A    and resi  500 and name "C5N" )  3.911 1.0 1.0

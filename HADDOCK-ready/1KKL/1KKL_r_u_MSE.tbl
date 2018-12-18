@@ -1,0 +1,7 @@
+! Restraints to fix 'MSE' in its initial position
+assi (segi A    and resi  138 and name "C"   )
+     (segi A    and resi  139 and name "N"   )  1.329 1.0 1.0
+assi (segi A    and resi  140 and name "N"   )
+     (segi A    and resi  139 and name "CA"  )  2.404 1.0 1.0
+assi (segi A    and resi  183 and name "CG1" )
+     (segi A    and resi  139 and name "SE"  )  4.368 1.0 1.0

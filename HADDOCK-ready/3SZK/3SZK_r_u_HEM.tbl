@@ -1,0 +1,25 @@
+! Restraints to fix 'HEM' in its initial position
+assi (segi A    and resi   58 and name "NE2" )
+     (segi A    and resi  142 and name "CHA" )  3.615 1.0 1.0
+assi (segi A    and resi   87 and name "CE1" )
+     (segi A    and resi  142 and name "CHB" )  3.481 1.0 1.0
+assi (segi A    and resi   98 and name "CE1" )
+     (segi A    and resi  142 and name "CHC" )  3.312 1.0 1.0
+assi (segi A    and resi   43 and name "CZ"  )
+     (segi A    and resi  142 and name "CHD" )  3.276 1.0 1.0
+assi (segi A    and resi   83 and name "CD1" )
+     (segi A    and resi  142 and name "C3A" )  3.610 1.0 1.0
+assi (segi A    and resi   61 and name "CD"  )
+     (segi A    and resi  142 and name "CAA" )  3.980 1.0 1.0
+assi (segi A    and resi   86 and name "CD2" )
+     (segi A    and resi  142 and name "CBA" )  3.516 1.0 1.0
+assi (segi A    and resi  136 and name "CD1" )
+     (segi A    and resi  142 and name "C3B" )  3.776 1.0 1.0
+assi (segi A    and resi   93 and name "CG1" )
+     (segi A    and resi  142 and name "C2C" )  3.697 1.0 1.0
+assi (segi A    and resi   42 and name "CG"  )
+     (segi A    and resi  142 and name "CAC" )  3.292 1.0 1.0
+assi (segi A    and resi   91 and name "CD2" )
+     (segi A    and resi  142 and name "C2D" )  3.626 1.0 1.0
+assi (segi A    and resi   45 and name "NE2" )
+     (segi A    and resi  142 and name "CBD" )  3.249 1.0 1.0

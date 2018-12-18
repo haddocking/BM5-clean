@@ -1,0 +1,7 @@
+! Restraints to fix 'DVA' in its initial position
+assi (segi B    and resi   34 and name "C"   )
+     (segi B    and resi   35 and name "N"   )  1.346 1.0 1.0
+assi (segi B    and resi   36 and name "N"   )
+     (segi B    and resi   35 and name "C"   )  1.328 1.0 1.0
+assi (segi B    and resi   31 and name "O"   )
+     (segi B    and resi   35 and name "CB"  )  3.248 1.0 1.0

@@ -1,0 +1,35 @@
+! Restraints to fix 'FAD' in its initial position
+assi (segi A    and resi   48 and name "NH2" )
+     (segi A    and resi 1449 and name "PA"  )  3.629 1.0 1.0
+assi (segi A    and resi  130 and name "NH2" )
+     (segi A    and resi 1449 and name "O1A" )  2.782 1.0 1.0
+assi (segi A    and resi   16 and name "CA"  )
+     (segi A    and resi 1449 and name "O5B" )  3.477 1.0 1.0
+assi (segi A    and resi  109 and name "C"   )
+     (segi A    and resi 1449 and name "C5B" )  3.377 1.0 1.0
+assi (segi A    and resi   15 and name "N"   )
+     (segi A    and resi 1449 and name "C4B" )  3.922 1.0 1.0
+assi (segi A    and resi   14 and name "CA"  )
+     (segi A    and resi 1449 and name "O4B" )  3.201 1.0 1.0
+assi (segi A    and resi   41 and name "OE1" )
+     (segi A    and resi 1449 and name "O3B" )  2.874 1.0 1.0
+assi (segi A    and resi   40 and name "OD2" )
+     (segi A    and resi 1449 and name "C2B" )  3.387 1.0 1.0
+assi (segi A    and resi  291 and name "CB"  )
+     (segi A    and resi 1449 and name "N1"  )  3.619 1.0 1.0
+assi (segi A    and resi   49 and name "CB"  )
+     (segi A    and resi 1449 and name "C4"  )  4.608 1.0 1.0
+assi (segi A    and resi  156 and name "CG2" )
+     (segi A    and resi 1449 and name "C7M" )  3.756 1.0 1.0
+assi (segi A    and resi  129 and name "O"   )
+     (segi A    and resi 1449 and name "C8M" )  3.659 1.0 1.0
+assi (segi A    and resi  289 and name "O"   )
+     (segi A    and resi 1449 and name "C2'" )  4.251 1.0 1.0
+assi (segi A    and resi  273 and name "OD2" )
+     (segi A    and resi 1449 and name "C4'" )  3.312 1.0 1.0
+assi (segi A    and resi  294 and name "CB"  )
+     (segi A    and resi 1449 and name "C5'" )  3.762 1.0 1.0
+assi (segi A    and resi   18 and name "CB"  )
+     (segi A    and resi 1449 and name "P"   )  3.976 1.0 1.0
+assi (segi A    and resi  110 and name "CA"  )
+     (segi A    and resi 1449 and name "O3P" )  3.318 1.0 1.0

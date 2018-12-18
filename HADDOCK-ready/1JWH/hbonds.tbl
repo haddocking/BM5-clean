@@ -1,0 +1,31 @@
+! Restraints to fix 'EMO' in its initial position
+assi (segi B    and resi  174 and name "CG2" )
+     (segi B    and resi  400 and name "C1"  )  3.820 1.0 1.0
+assi (segi B    and resi   95 and name "CG1" )
+     (segi B    and resi  400 and name "O1"  )  3.567 1.0 1.0
+assi (segi B    and resi  113 and name "CE2" )
+     (segi B    and resi  400 and name "C2"  )  3.420 1.0 1.0
+assi (segi B    and resi  175 and name "N"   )
+     (segi B    and resi  400 and name "C3"  )  3.448 1.0 1.0
+assi (segi B    and resi   68 and name "NZ"  )
+     (segi B    and resi  400 and name "O3"  )  2.761 1.0 1.0
+assi (segi B    and resi   53 and name "CG2" )
+     (segi B    and resi  400 and name "O6"  )  3.579 1.0 1.0
+assi (segi B    and resi  118 and name "ND2" )
+     (segi B    and resi  400 and name "C9"  )  3.888 1.0 1.0
+assi (segi B    and resi  163 and name "CE"  )
+     (segi B    and resi  400 and name "C17" )  3.495 1.0 1.0
+assi (segi B    and resi   66 and name "CG1" )
+     (segi B    and resi  400 and name "C19" )  3.782 1.0 1.0
+assign (segid A and resi 52 and name CA) (segid A and resi 182 and name CA) 49.880 0.0 0.0
+assign (segid A and resi 34 and name CA) (segid A and resi 187 and name CA) 61.028 0.0 0.0
+assign (segid A and resi 8 and name CA) (segid A and resi 551 and name CA) 65.095 0.0 0.0
+assign (segid A and resi 41 and name CA) (segid A and resi 526 and name CA) 65.304 0.0 0.0
+assign (segid A and resi 38 and name CA) (segid A and resi 663 and name CA) 54.839 0.0 0.0
+assign (segid A and resi 26 and name CA) (segid A and resi 614 and name CA) 37.456 0.0 0.0
+assign (segid A and resi 105 and name CA) (segid A and resi 524 and name CA) 38.988 0.0 0.0
+assign (segid A and resi 192 and name CA) (segid A and resi 538 and name CA) 25.003 0.0 0.0
+assign (segid A and resi 144 and name CA) (segid A and resi 609 and name CA) 8.824 0.0 0.0
+assign (segid A and resi 186 and name CA) (segid A and resi 678 and name CA) 21.212 0.0 0.0
+assign (segid A and resi 516 and name CA) (segid A and resi 634 and name CA) 18.569 0.0 0.0
+assign (segid A and resi 512 and name CA) (segid A and resi 587 and name CA) 18.073 0.0 0.0

@@ -1,0 +1,34 @@
+! Restraints to fix 'ACE' in its initial position
+assi (segi B    and resi    1 and name "N"   )
+     (segi B    and resi    0 and name "C"   )  1.329 1.0 1.0
+! Restraints to fix 'ATP' in its initial position
+assi (segi B    and resi  129 and name "NZ"  )
+     (segi B    and resi  381 and name "PG"  )  3.326 1.0 1.0
+assi (segi B    and resi  145 and name "OD2" )
+     (segi B    and resi  381 and name "O2G" )  3.009 1.0 1.0
+assi (segi B    and resi   14 and name "N"   )
+     (segi B    and resi  381 and name "O3G" )  2.712 1.0 1.0
+assi (segi B    and resi  132 and name "OD1" )
+     (segi B    and resi  381 and name "PB"  )  3.869 1.0 1.0
+assi (segi B    and resi  131 and name "CB"  )
+     (segi B    and resi  381 and name "O2B" )  3.397 1.0 1.0
+assi (segi B    and resi   33 and name "NZ"  )
+     (segi B    and resi  381 and name "PA"  )  3.618 1.0 1.0
+assi (segi B    and resi   18 and name "CG2" )
+     (segi B    and resi  381 and name "O1A" )  3.288 1.0 1.0
+assi (segi B    and resi   12 and name "O"   )
+     (segi B    and resi  381 and name "O3A" )  3.821 1.0 1.0
+assi (segi B    and resi   11 and name "CA"  )
+     (segi B    and resi  381 and name "C4*" )  3.976 1.0 1.0
+assi (segi B    and resi   10 and name "CG2" )
+     (segi B    and resi  381 and name "O4*" )  3.302 1.0 1.0
+assi (segi B    and resi   86 and name "OD2" )
+     (segi B    and resi  381 and name "O3*" )  3.441 1.0 1.0
+assi (segi B    and resi  134 and name "CD1" )
+     (segi B    and resi  381 and name "N7"  )  4.013 1.0 1.0
+assi (segi B    and resi   81 and name "O"   )
+     (segi B    and resi  381 and name "N6"  )  2.856 1.0 1.0
+assi (segi B    and resi   83 and name "N"   )
+     (segi B    and resi  381 and name "N1"  )  3.234 1.0 1.0
+assign (segid B and resi 31 and name CA) (segid B and resi 275 and name CA) 33.112 0.0 0.0
+assign (segid B and resi 19 and name CA) (segid B and resi 286 and name CA) 36.136 0.0 0.0

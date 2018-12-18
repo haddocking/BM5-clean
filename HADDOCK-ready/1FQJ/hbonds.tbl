@@ -1,0 +1,40 @@
+! Restraints to fix 'MSE' in its initial position
+assi (segi B    and resi  290 and name "C"   )
+     (segi B    and resi  291 and name "N"   )  1.330 1.0 1.0
+assi (segi B    and resi  292 and name "N"   )
+     (segi B    and resi  291 and name "CA"  )  2.423 1.0 1.0
+assi (segi B    and resi  294 and name "OE1" )
+     (segi B    and resi  291 and name "CE"  )  5.857 1.0 1.0
+! Restraints to fix 'GSP' in its initial position
+assi (segi A    and resi   39 and name "N"   )
+     (segi A    and resi  351 and name "PG"  )  3.655 1.0 1.0
+assi (segi A    and resi  177 and name "N"   )
+     (segi A    and resi  351 and name "O2G" )  2.856 1.0 1.0
+assi (segi A    and resi   42 and name "NZ"  )
+     (segi A    and resi  351 and name "O3G" )  2.811 1.0 1.0
+assi (segi A    and resi   43 and name "OG"  )
+     (segi A    and resi  351 and name "O2B" )  2.617 1.0 1.0
+assi (segi A    and resi   44 and name "OG1" )
+     (segi A    and resi  351 and name "PA"  )  3.628 1.0 1.0
+assi (segi A    and resi  174 and name "NH1" )
+     (segi A    and resi  351 and name "O2A" )  3.070 1.0 1.0
+assi (segi A    and resi   41 and name "N"   )
+     (segi A    and resi  351 and name "O3A" )  3.120 1.0 1.0
+assi (segi A    and resi  146 and name "OD2" )
+     (segi A    and resi  351 and name "C4*" )  3.358 1.0 1.0
+assi (segi A    and resi  173 and name "O"   )
+     (segi A    and resi  351 and name "C3*" )  3.382 1.0 1.0
+assi (segi A    and resi  172 and name "O"   )
+     (segi A    and resi  351 and name "O3*" )  2.701 1.0 1.0
+assi (segi A    and resi  171 and name "O"   )
+     (segi A    and resi  351 and name "O2*" )  2.487 1.0 1.0
+assi (segi A    and resi  323 and name "CG2" )
+     (segi A    and resi  351 and name "N9"  )  4.046 1.0 1.0
+assi (segi A    and resi  265 and name "ND2" )
+     (segi A    and resi  351 and name "N7"  )  2.941 1.0 1.0
+assi (segi A    and resi  266 and name "CG"  )
+     (segi A    and resi  351 and name "C6"  )  3.466 1.0 1.0
+assi (segi A    and resi  322 and name "N"   )
+     (segi A    and resi  351 and name "O6"  )  3.142 1.0 1.0
+assi (segi A    and resi  268 and name "OD1" )
+     (segi A    and resi  351 and name "N1"  )  3.042 1.0 1.0
