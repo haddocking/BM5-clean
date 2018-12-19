@@ -1,0 +1,31 @@
+! Restraints to fix 'NAD' in its initial position
+assi (segi A    and resi  183 and name "NH2" )
+     (segi A    and resi 1500 and name "PA"  )  3.489 1.0 1.0
+assi (segi A    and resi  154 and name "CA"  )
+     (segi A    and resi 1500 and name "O5B" )  3.442 1.0 1.0
+assi (segi A    and resi  234 and name "O"   )
+     (segi A    and resi 1500 and name "C5B" )  3.514 1.0 1.0
+assi (segi A    and resi  152 and name "CA"  )
+     (segi A    and resi 1500 and name "O4B" )  3.433 1.0 1.0
+assi (segi A    and resi  175 and name "OE2" )
+     (segi A    and resi 1500 and name "C3B" )  3.690 1.0 1.0
+assi (segi A    and resi  176 and name "OG1" )
+     (segi A    and resi 1500 and name "N9A" )  3.600 1.0 1.0
+assi (segi A    and resi  114 and name "NH2" )
+     (segi A    and resi 1500 and name "C8A" )  3.377 1.0 1.0
+assi (segi A    and resi  235 and name "CG2" )
+     (segi A    and resi 1500 and name "C5A" )  3.541 1.0 1.0
+assi (segi A    and resi  151 and name "CG1" )
+     (segi A    and resi 1500 and name "C2A" )  3.470 1.0 1.0
+assi (segi A    and resi  236 and name "CA"  )
+     (segi A    and resi 1500 and name "O3"  )  3.208 1.0 1.0
+assi (segi A    and resi  156 and name "N"   )
+     (segi A    and resi 1500 and name "O1N" )  3.180 1.0 1.0
+assi (segi A    and resi  289 and name "OE2" )
+     (segi A    and resi 1500 and name "C5D" )  3.897 1.0 1.0
+assi (segi A    and resi  237 and name "CG2" )
+     (segi A    and resi 1500 and name "O3D" )  2.907 1.0 1.0
+assi (segi A    and resi  319 and name "CD2" )
+     (segi A    and resi 1500 and name "N7N" )  3.374 1.0 1.0
+assi (segi A    and resi  155 and name "CG1" )
+     (segi A    and resi 1500 and name "C5N" )  3.357 1.0 1.0
