@@ -2,7 +2,7 @@
 #
 foreach i ($argv)
   set rootname=`echo $i |sed -e 's/_r_u\.pdb//g'`
-  set dirname=../docking-ready/$rootname
+  set dirname=../HADDOCK-ready/$rootname
   mkdir $dirname
   mkdir $dirname/ana_scripts
   \cp ${rootname}_r_b-matched.pdb $dirname
