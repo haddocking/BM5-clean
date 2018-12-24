@@ -3054,7 +3054,7 @@ An Integrative Framework for Structure Determination of Molecular Machines.
 
 {* Do you want to use hydrogen bond restraints? *}
 {+ choice: true false +}
-{===>} hbonds_on=false;
+{===>} hbonds_on=true;
 
 {* Do you want to define randomly ambiguous interaction restraints from accessible residues? *}
 {* Only residues in the defined flexible segments will be considered *}

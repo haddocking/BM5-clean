@@ -1,6 +1,6 @@
---- run.cns	2018-12-12 13:26:24.412088123 +0100
-+++ ../../data/run.cns.refe-ti	2018-12-12 13:22:39.501107214 +0100
-@@ -3047,7 +3047,7 @@
+--- run.cns	2018-12-23 13:42:18.810655830 +0100
++++ ../../data/run.cns.refe-ti	2018-12-23 13:44:49.452949075 +0100
+@@ -3047,14 +3047,14 @@
  
  {* Do you want to randomly exclude a fraction of the ambiguous restraints (AIRs)? *}
  {+ choice: true false +}
@@ -9,6 +9,14 @@
  
  {* Number of partitions for random exclusion (%excluded=100/number of partitions)? *}
  {===>} ncvpart=2;
+ 
+ {* Do you want to use hydrogen bond restraints? *}
+ {+ choice: true false +}
+-{===>} hbonds_on=false;
++{===>} hbonds_on=true;
+ 
+ {* Do you want to define randomly ambiguous interaction restraints from accessible residues? *}
+ {* Only residues in the defined flexible segments will be considered *}
 @@ -4369,11 +4369,11 @@
  {===>} structures_0=1000;
         keepstruct_0=&structures_0;

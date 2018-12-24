@@ -1,5 +1,14 @@
---- run.cns	2018-11-28 19:49:47.879738583 +0100
-+++ ../../data/run.cns.refe-cm	2018-11-28 19:48:39.286418374 +0100
+--- run.cns	2018-12-23 13:47:28.206558534 +0100
++++ ../../data/run.cns.refe-cm	2018-12-23 13:25:33.968409324 +0100
+@@ -3054,7 +3054,7 @@
+ 
+ {* Do you want to use hydrogen bond restraints? *}
+ {+ choice: true false +}
+-{===>} hbonds_on=false;
++{===>} hbonds_on=true;
+ 
+ {* Do you want to define randomly ambiguous interaction restraints from accessible residues? *}
+ {* Only residues in the defined flexible segments will be considered *}
 @@ -3065,7 +3065,7 @@
  {* Do you want to define center of mass (CM) restraints to enforce contact between the molecules? *}
  {* Note that these are only active during it0 and it1 *}

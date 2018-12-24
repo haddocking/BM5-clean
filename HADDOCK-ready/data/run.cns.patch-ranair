@@ -1,6 +1,13 @@
---- run.cns	2018-11-28 19:58:38.843994988 +0100
-+++ ../../data/run.cns.refe-ranair	2018-11-28 19:54:39.035364227 +0100
-@@ -3060,7 +3060,7 @@
+--- run.cns	2018-12-23 13:49:12.713743788 +0100
++++ ../../data/run.cns.refe-ranair	2018-12-23 13:25:49.786075074 +0100
+@@ -3054,13 +3054,13 @@
+ 
+ {* Do you want to use hydrogen bond restraints? *}
+ {+ choice: true false +}
+-{===>} hbonds_on=false;
++{===>} hbonds_on=true;
+ 
+ {* Do you want to define randomly ambiguous interaction restraints from accessible residues? *}
  {* Only residues in the defined flexible segments will be considered *}
  {* Note that this option is exclusive with any other distance restraints and only for it0    *}
  {+ choice: true false +}
