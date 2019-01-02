@@ -1,7 +1,7 @@
 #!/bin/csh
 #
 source ~abonvin/haddock2.4/haddock_configure.csh
-set WDIR=/Users/abonvin/Desktop/benchmark5/docking-ready/4LW4/ana_scripts
+set WDIR=/home/abonvin/docking/BM5-clean/HADDOCK-ready/4LW4/ana_scripts
 cd $1/structures/it1/water/analysis
 if ( -e cluster.out.gz ) then
   gunzip cluster.out.gz

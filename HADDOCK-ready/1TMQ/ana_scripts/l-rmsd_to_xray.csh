@@ -1,7 +1,7 @@
 #!/bin/csh
 #
 source ~abonvin/haddock2.4/haddock_configure.csh
-set WDIR=/Users/abonvin/Desktop/benchmark5/docking-ready/1TMQ/ana_scripts
+set WDIR=/home/abonvin/docking/BM5-clean/HADDOCK-ready/1TMQ/ana_scripts
 set refe=$WDIR/target.pdb
 set lzone=$WDIR/target.lzone
 set atoms='CA,C,N,O'
@@ -21,8 +21,12 @@ endif
 cat /dev/null >rmsd_xray.disp
 
 foreach i (`cat file.nam`)
-  $HADDOCKTOOLS/pdb_segid-to-chain $i >$i:r.tmp1
-#  cat $i >$i:r.tmp1
+  if ( -e $i.gz ) then
+    gzip -dc $i.gz > $i:t:r.tmp2
+  else
+    \cp $i $i:t:r.tmp2
+  endif
+  $HADDOCKTOOLS/pdb_segid-to-chain $i:t:r.tmp2 |sed -e 's/BB/CA/' >$i:t:r.tmp1
   echo $i >>rmsd_xray.disp
   $PROFIT <<_Eod_ |grep RMS |tail -1 >>rmsd_xray.disp
     refe $refe
@@ -33,6 +37,7 @@ foreach i (`cat file.nam`)
     quit
 _Eod_
 \rm $i:r.tmp1
+\rm $i:r.tmp2
 end
 echo "#struc l-RMSD" >l-RMSD.dat
 awk '{if ($1 == "RMS:") {printf "%8.3f ",$2} else if  ($2 == "RMS:") {printf "%8.3f ",$3} else {printf "\n %s ",$1}}' rmsd_xray.disp |grep pdb |awk '{print $1,$2}' >> l-RMSD.dat

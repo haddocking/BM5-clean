@@ -1,7 +1,7 @@
 #!/bin/csh
 #
 source ~abonvin/haddock2.4/haddock_configure.csh
-set WDIR=/Users/abonvin/Desktop/benchmark5/docking-ready/1GHQ/ana_scripts
+set WDIR=/home/abonvin/docking/BM5-clean/HADDOCK-ready/1GHQ/ana_scripts
 set refe=$WDIR/target.pdb
 set izone=$WDIR/target.izone
 set atoms='CA,C,N,O'
@@ -21,8 +21,8 @@ endif
 cat /dev/null >rmsd-interface_xray.disp
 
 foreach i (`cat file.nam`)
-  if ($i:e == "gz") then
-    gzip -dc $i > $i:t:r.tmp2
+  if ( -e $i.gz ) then
+    gzip -dc $i.gz > $i:t:r.tmp2
   else
     \cp $i $i:t:r.tmp2
   endif

@@ -17,8 +17,8 @@ endif
 cat /dev/null >rmsd-interface_xray.disp
 
 foreach i (`cat file.nam`)
-  if ($i:e == "gz") then
-    gzip -dc $i > $i:t:r.tmp2
+  if ( -e $i.gz ) then
+    gzip -dc $i.gz > $i:t:r.tmp2
   else
     \cp $i $i:t:r.tmp2
   endif

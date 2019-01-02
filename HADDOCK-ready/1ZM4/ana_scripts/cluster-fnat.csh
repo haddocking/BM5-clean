@@ -1,7 +1,7 @@
 #!/bin/csh
 #
 source ~abonvin/haddock2.4/haddock_configure.csh
-set WDIR=/Users/abonvin/Desktop/benchmark5/docking-ready/1ZM4/ana_scripts
+set WDIR=/home/abonvin/docking/BM5-clean/HADDOCK-ready/1ZM4/ana_scripts
 if ($#argv == 0) then
   echo "Note that you can specify a number to perform "
   echo "the analysis for the Nbest structures of a cluster"
