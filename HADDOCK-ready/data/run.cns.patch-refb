@@ -1,0 +1,94 @@
+--- run.cns	2019-01-03 09:54:53.607024323 +0100
++++ ../../data/run.cns.refe-refb	2019-01-03 09:54:41.628040523 +0100
+@@ -3047,7 +3047,7 @@
+ 
+ {* Do you want to randomly exclude a fraction of the ambiguous restraints (AIRs)? *}
+ {+ choice: true false +}
+-{===>} noecv=true;
++{===>} noecv=false;
+ 
+ {* Number of partitions for random exclusion (%excluded=100/number of partitions)? *}
+ {===>} ncvpart=2;
+@@ -4366,14 +4366,14 @@
+ {* Setting for the rigid-body (it0) and semi-flexible refiment (it1) *}
+ 
+ {* number of structures for rigid body docking *}
+-{===>} structures_0=1000;
++{===>} structures_0=50;
+        keepstruct_0=&structures_0;
+ {* number of structures for refinement *}
+-{===>} structures_1=200;
++{===>} structures_1=50;
+        keepstruct_1=&structures_1;
+        keepstruct_2=&structures_1;
+ {* number of structures to be analysed*}
+-{===>} anastruc_1=200;
++{===>} anastruc_1=50;
+        anastruc_0=&anastruc_1;
+        anastruc_2=&anastruc_1;
+ 
+@@ -4381,7 +4381,7 @@
+ 
+ {* Sample 180 degrees rotated solutions during rigid body EM?   *}
+ {+ choice: true false +}
+-{===>} rotate180_it0=true;
++{===>} rotate180_it0=false;
+ 
+ {* Sample 180 degrees rotated solutions during semi-flexible SA?*}
+ {+ choice: true false +}
+@@ -4397,7 +4397,7 @@
+ 
+ {* Randomize starting orientations? *}
+ {+ choice: true false +}
+-{===>} randorien=true;
++{===>} randorien=false;
+ 
+ {* Expand starting orientations? *}
+ {+ choice: true false +}
+@@ -4415,14 +4415,14 @@
+ 
+ {* Perform initial rigid body minimisation? *}
+ {+ choice: true false +}
+-{===>} rigidmini=true;
++{===>} rigidmini=false;
+ 
+ {* Allow translation in rigid body minimisation? *}
+ {+ choice: true false +}
+ {===>} rigidtrans=true;
+ 
+ {* Number of trials for rigid body minimisation? *}
+-{===>} ntrials=5;
++{===>} ntrials=1;
+ 
+ {* initial seed for random number generator *}
+ {* change to get different initial velocities *}
+@@ -4458,16 +4458,16 @@
+ {===>} emstepstrans=1000;
+ 
+ {* number of MD steps for rigid body high temperature TAD *}
+-{===>} initiosteps=500;
++{===>} initiosteps=0;
+ 
+ {* number of MD steps during first rigid body cooling stage *}
+-{===>} cool1_steps=500;
++{===>} cool1_steps=0;
+ 
+ {* number of MD steps during second cooling stage with flexible side-chains at interface *}
+-{===>} cool2_steps=1000;
++{===>} cool2_steps=0;
+ 
+ {* number of MD steps during third cooling stage with fully flexible interface *}
+-{===>} cool3_steps=1000;
++{===>} cool3_steps=0;
+ 
+ 
+ {======================= Solvated rigid body docking=======================}
+@@ -4544,7 +4544,7 @@
+ 
+ {* number of structures for the explicit solvent refinement *}
+ {* the n best structures will be refined                    *}
+-{===>} waterrefine=200;
++{===>} waterrefine=50;
+        structures_2=&waterrefine;
+ 
+ {* number of steps for heating phase (100, 200, 300K)?      *}
