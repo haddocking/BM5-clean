@@ -1,13 +1,13 @@
 #!/bin/csh
 #
 source /home/abonvin/haddock2.4/haddock_configure.csh
-set runname=ti
-set maxrun=5
+set runname=refb
+set maxrun=10
 set counter=0
 set clean=0
 foreach i ($argv)
   if ($counter < $maxrun) then
-    if ( -e ${i}/run1-$runname/structures/it1/water/analysis/DONE ) then
+    if ( -e ${i}/run1-$runname/structures/it1/water/analysis/DONE && -e ${i}/run1-$runname/structures/it1/analysis/DONE ) then
       if ( -e ${i}/run1-$runname/structures/it0/file.nam_fnat ) then
         echo "Analysis for "$i" "$runname" already performed"
 	if (! -e ${i}/run1-$runname.stats ) then
@@ -37,7 +37,8 @@ foreach i ($argv)
 	  echo "cd "`pwd` >>${i}-analyse-${runname}.csh
           echo "./ana_scripts/run_all.csh run1-"$runname >>${i}-analyse-${runname}.csh
           echo "../results-stats.csh run1-"$runname" > run1-"$runname".stats" >>${i}-analyse-${runname}.csh
-	  ssub short ${i}-analyse-${runname}.csh
+	  echo "../clean-run-multi.csh run1-"$runname" >&/dev/null " >>${i}-analyse-${runname}.csh
+	  ssub medium ${i}-analyse-${runname}.csh
 	  @ counter+=1
 	  cd ..
 	else
