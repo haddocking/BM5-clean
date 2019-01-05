@@ -7,7 +7,7 @@ set counter=0
 set clean=0
 foreach i ($argv)
   if ($counter < $maxrun) then
-    if ( -e ${i}/run1-$runname/structures/it1/water/analysis/DONE && -e ${i}/run1-$runname/structures/it1/analysis/DONE ) then
+    if ( -e ${i}/run1-$runname/structures/it1/water/analysis/CLUST_DONE && -e ${i}/run1-$runname/structures/it1/analysis/CLUST_DONE ) then
       if ( -e ${i}/run1-$runname/structures/it0/file.nam_fnat ) then
         echo "Analysis for "$i" "$runname" already performed"
 	if (! -e ${i}/run1-$runname.stats ) then
