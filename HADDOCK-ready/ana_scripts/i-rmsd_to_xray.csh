@@ -16,11 +16,22 @@ endif
 
 cat /dev/null >rmsd-interface_xray.disp
 
+foreach i (`head -n1 file.nam`)
+  if ( -e $i.gz ) then
+    set CG=`gzip -dc $i.gz | grep BB | wc -l | awk '{print $1}'` 
+  else
+    set CG=`cat $i | grep BB | wc -l | awk '{print $1}'` 
+  endif
+  if ( $CG > 0 ) then
+    set atoms='CA'
+  endif
+end
+
 foreach i (`cat file.nam`)
   if ( -e $i.gz ) then
-    gzip -dc $i.gz > $i:t:r.tmp2
+    gzip -dc $i.gz | sed -e 's/BB/CA/' > $i:t:r.tmp2
   else
-    \cp $i $i:t:r.tmp2
+    cat $i | sed -e 's/BB/CA/' > $i:t:r.tmp2
   endif
   $HADDOCKTOOLS/pdb_segid-to-chain $i:t:r.tmp2 |sed -e 's/BB/CA/' >$i:t:r.tmp1
   echo $i >>rmsd-interface_xray.disp

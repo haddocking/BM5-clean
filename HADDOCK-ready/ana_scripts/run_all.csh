@@ -29,6 +29,8 @@ $HADDOCKTOOLS/ana_structures.csh
 $WDIR/fraction-native.csh 
 cd ../../../
 
+exit:
+
 
 
 

@@ -1,0 +1,238 @@
+assign (segid BCG and resid 1 and name BB) (segid B and resid 1 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 1 and name SC1) (segid B and resid 1 and (name CB or name CG or name CD1 or name CD2)) 0 0 0
+assign (segid BCG and resid 2 and name BB) (segid B and resid 2 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 2 and name SC1) (segid B and resid 2 and (name CB or name CG or name CD or name OE1 or name NE2)) 0 0 0
+assign (segid BCG and resid 3 and name BB) (segid B and resid 3 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 3 and name SC1) (segid B and resid 3 and (name CB or name CG1 or name CG2 or name CD1)) 0 0 0
+assign (segid BCG and resid 4 and name BB) (segid B and resid 4 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 4 and name SC1) (segid B and resid 4 and (name CB or name CG or name CD1)) 0 0 0
+assign (segid BCG and resid 4 and name SC2) (segid B and resid 4 and (name CD2 or name CE2)) 0 0 0
+assign (segid BCG and resid 4 and name SC3) (segid B and resid 4 and (name CE1 or name CZ)) 0 0 0
+assign (segid BCG and resid 5 and name BB) (segid B and resid 5 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 5 and name SC1) (segid B and resid 5 and (name CB or name CG1 or name CG2)) 0 0 0
+assign (segid BCG and resid 6 and name BB) (segid B and resid 6 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 6 and name SC1) (segid B and resid 6 and (name CB or name CG or name CD)) 0 0 0
+assign (segid BCG and resid 6 and name SC2) (segid B and resid 6 and (name CE or name NZ)) 0 0 0
+assign (segid BCG and resid 7 and name BB) (segid B and resid 7 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 7 and name SC1) (segid B and resid 7 and (name CB or name OG1 or name CG2)) 0 0 0
+assign (segid BCG and resid 8 and name BB) (segid B and resid 8 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 8 and name SC1) (segid B and resid 8 and (name CB or name CG or name CD1 or name CD2)) 0 0 0
+assign (segid BCG and resid 9 and name BB) (segid B and resid 9 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 9 and name SC1) (segid B and resid 9 and (name CB or name OG1 or name CG2)) 0 0 0
+assign (segid BCG and resid 10 and name BB) (segid B and resid 10 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 11 and name BB) (segid B and resid 11 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 11 and name SC1) (segid B and resid 11 and (name CB or name CG or name CD)) 0 0 0
+assign (segid BCG and resid 11 and name SC2) (segid B and resid 11 and (name CE or name NZ)) 0 0 0
+assign (segid BCG and resid 12 and name BB) (segid B and resid 12 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 12 and name SC1) (segid B and resid 12 and (name CB or name OG1 or name CG2)) 0 0 0
+assign (segid BCG and resid 13 and name BB) (segid B and resid 13 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 13 and name SC1) (segid B and resid 13 and (name CB or name CG1 or name CG2 or name CD1)) 0 0 0
+assign (segid BCG and resid 14 and name BB) (segid B and resid 14 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 14 and name SC1) (segid B and resid 14 and (name CB or name OG1 or name CG2)) 0 0 0
+assign (segid BCG and resid 15 and name BB) (segid B and resid 15 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 15 and name SC1) (segid B and resid 15 and (name CB or name CG or name CD1 or name CD2)) 0 0 0
+assign (segid BCG and resid 16 and name BB) (segid B and resid 16 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 16 and name SC1) (segid B and resid 16 and (name CB or name CG or name CD or name OE1 or name OE2)) 0 0 0
+assign (segid BCG and resid 17 and name BB) (segid B and resid 17 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 17 and name SC1) (segid B and resid 17 and (name CB or name CG1 or name CG2)) 0 0 0
+assign (segid BCG and resid 18 and name BB) (segid B and resid 18 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 18 and name SC1) (segid B and resid 18 and (name CB or name CG or name CD or name OE1 or name OE2)) 0 0 0
+assign (segid BCG and resid 19 and name BB) (segid B and resid 19 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 19 and name SC1) (segid B and resid 19 and (name CB or name CG or name CD)) 0 0 0
+assign (segid BCG and resid 20 and name BB) (segid B and resid 20 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 20 and name SC1) (segid B and resid 20 and (name CB or name OG)) 0 0 0
+assign (segid BCG and resid 21 and name BB) (segid B and resid 21 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 21 and name SC1) (segid B and resid 21 and (name CB or name CG or name OD1 or name OD2)) 0 0 0
+assign (segid BCG and resid 22 and name BB) (segid B and resid 22 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 22 and name SC1) (segid B and resid 22 and (name CB or name OG1 or name CG2)) 0 0 0
+assign (segid BCG and resid 23 and name BB) (segid B and resid 23 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 23 and name SC1) (segid B and resid 23 and (name CB or name CG1 or name CG2 or name CD1)) 0 0 0
+assign (segid BCG and resid 24 and name BB) (segid B and resid 24 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 24 and name SC1) (segid B and resid 24 and (name CB or name CG or name CD or name OE1 or name OE2)) 0 0 0
+assign (segid BCG and resid 25 and name BB) (segid B and resid 25 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 25 and name SC1) (segid B and resid 25 and (name CB or name CG or name ND2 or name OD1)) 0 0 0
+assign (segid BCG and resid 26 and name BB) (segid B and resid 26 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 26 and name SC1) (segid B and resid 26 and (name CB or name CG1 or name CG2)) 0 0 0
+assign (segid BCG and resid 27 and name BB) (segid B and resid 27 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 27 and name SC1) (segid B and resid 27 and (name CB or name CG or name CD)) 0 0 0
+assign (segid BCG and resid 27 and name SC2) (segid B and resid 27 and (name CE or name NZ)) 0 0 0
+assign (segid BCG and resid 28 and name BB) (segid B and resid 28 and (name CA or name C or name N or name O or name CB)) 0 0 0
+assign (segid BCG and resid 29 and name BB) (segid B and resid 29 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 29 and name SC1) (segid B and resid 29 and (name CB or name CG or name CD)) 0 0 0
+assign (segid BCG and resid 29 and name SC2) (segid B and resid 29 and (name CE or name NZ)) 0 0 0
+assign (segid BCG and resid 30 and name BB) (segid B and resid 30 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 30 and name SC1) (segid B and resid 30 and (name CB or name CG1 or name CG2 or name CD1)) 0 0 0
+assign (segid BCG and resid 31 and name BB) (segid B and resid 31 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 31 and name SC1) (segid B and resid 31 and (name CB or name CG or name CD or name OE1 or name NE2)) 0 0 0
+assign (segid BCG and resid 32 and name BB) (segid B and resid 32 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 32 and name SC1) (segid B and resid 32 and (name CB or name CG or name OD1 or name OD2)) 0 0 0
+assign (segid BCG and resid 33 and name BB) (segid B and resid 33 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 33 and name SC1) (segid B and resid 33 and (name CB or name CG or name CD)) 0 0 0
+assign (segid BCG and resid 33 and name SC2) (segid B and resid 33 and (name CE or name NZ)) 0 0 0
+assign (segid BCG and resid 34 and name BB) (segid B and resid 34 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 34 and name SC1) (segid B and resid 34 and (name CB or name CG or name CD or name OE1 or name OE2)) 0 0 0
+assign (segid BCG and resid 36 and name BB) (segid B and resid 36 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 36 and name SC1) (segid B and resid 36 and (name CB or name CG1 or name CG2 or name CD1)) 0 0 0
+assign (segid BCG and resid 37 and name BB) (segid B and resid 37 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 37 and name SC1) (segid B and resid 37 and (name CB or name CG or name CD)) 0 0 0
+assign (segid BCG and resid 38 and name BB) (segid B and resid 38 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 38 and name SC1) (segid B and resid 38 and (name CB or name CG or name CD)) 0 0 0
+assign (segid BCG and resid 39 and name BB) (segid B and resid 39 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 39 and name SC1) (segid B and resid 39 and (name CB or name CG or name OD1 or name OD2)) 0 0 0
+assign (segid BCG and resid 40 and name BB) (segid B and resid 40 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 40 and name SC1) (segid B and resid 40 and (name CB or name CG or name CD or name OE1 or name NE2)) 0 0 0
+assign (segid BCG and resid 41 and name BB) (segid B and resid 41 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 41 and name SC1) (segid B and resid 41 and (name CB or name CG or name CD or name OE1 or name NE2)) 0 0 0
+assign (segid BCG and resid 42 and name BB) (segid B and resid 42 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 42 and name SC1) (segid B and resid 42 and (name CB or name CG or name CD)) 0 0 0
+assign (segid BCG and resid 42 and name SC2) (segid B and resid 42 and (name NE or name CZ or name NH1 or name NH2)) 0 0 0
+assign (segid BCG and resid 43 and name BB) (segid B and resid 43 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 43 and name SC1) (segid B and resid 43 and (name CB or name CG or name CD1 or name CD2)) 0 0 0
+assign (segid BCG and resid 44 and name BB) (segid B and resid 44 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 44 and name SC1) (segid B and resid 44 and (name CB or name CG1 or name CG2 or name CD1)) 0 0 0
+assign (segid BCG and resid 45 and name BB) (segid B and resid 45 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 45 and name SC1) (segid B and resid 45 and (name CB or name CG or name CD1)) 0 0 0
+assign (segid BCG and resid 45 and name SC2) (segid B and resid 45 and (name CD2 or name CE2)) 0 0 0
+assign (segid BCG and resid 45 and name SC3) (segid B and resid 45 and (name CE1 or name CZ)) 0 0 0
+assign (segid BCG and resid 46 and name BB) (segid B and resid 46 and (name CA or name C or name N or name O or name CB)) 0 0 0
+assign (segid BCG and resid 47 and name BB) (segid B and resid 47 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 48 and name BB) (segid B and resid 48 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 48 and name SC1) (segid B and resid 48 and (name CB or name CG or name CD)) 0 0 0
+assign (segid BCG and resid 48 and name SC2) (segid B and resid 48 and (name CE or name NZ)) 0 0 0
+assign (segid BCG and resid 49 and name BB) (segid B and resid 49 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 49 and name SC1) (segid B and resid 49 and (name CB or name CG or name CD or name OE1 or name NE2)) 0 0 0
+assign (segid BCG and resid 50 and name BB) (segid B and resid 50 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 50 and name SC1) (segid B and resid 50 and (name CB or name CG or name CD1 or name CD2)) 0 0 0
+assign (segid BCG and resid 51 and name BB) (segid B and resid 51 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 51 and name SC1) (segid B and resid 51 and (name CB or name CG or name CD or name OE1 or name OE2)) 0 0 0
+assign (segid BCG and resid 52 and name BB) (segid B and resid 52 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 52 and name SC1) (segid B and resid 52 and (name CB or name CG or name OD1 or name OD2)) 0 0 0
+assign (segid BCG and resid 53 and name BB) (segid B and resid 53 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 54 and name BB) (segid B and resid 54 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 54 and name SC1) (segid B and resid 54 and (name CB or name CG or name CD)) 0 0 0
+assign (segid BCG and resid 54 and name SC2) (segid B and resid 54 and (name NE or name CZ or name NH1 or name NH2)) 0 0 0
+assign (segid BCG and resid 55 and name BB) (segid B and resid 55 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 55 and name SC1) (segid B and resid 55 and (name CB or name OG1 or name CG2)) 0 0 0
+assign (segid BCG and resid 56 and name BB) (segid B and resid 56 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 56 and name SC1) (segid B and resid 56 and (name CB or name CG or name CD1 or name CD2)) 0 0 0
+assign (segid BCG and resid 57 and name BB) (segid B and resid 57 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 57 and name SC1) (segid B and resid 57 and (name CB or name OG)) 0 0 0
+assign (segid BCG and resid 58 and name BB) (segid B and resid 58 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 58 and name SC1) (segid B and resid 58 and (name CB or name CG or name OD1 or name OD2)) 0 0 0
+assign (segid BCG and resid 59 and name BB) (segid B and resid 59 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 59 and name SC1) (segid B and resid 59 and (name CB or name CG or name CD1)) 0 0 0
+assign (segid BCG and resid 59 and name SC2) (segid B and resid 59 and (name CD2 or name CE2)) 0 0 0
+assign (segid BCG and resid 59 and name SC3) (segid B and resid 59 and (name CE1 or name CZ or name OH)) 0 0 0
+assign (segid BCG and resid 60 and name BB) (segid B and resid 60 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 60 and name SC1) (segid B and resid 60 and (name CB or name CG or name ND2 or name OD1)) 0 0 0
+assign (segid BCG and resid 61 and name BB) (segid B and resid 61 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 61 and name SC1) (segid B and resid 61 and (name CB or name CG1 or name CG2 or name CD1)) 0 0 0
+assign (segid BCG and resid 62 and name BB) (segid B and resid 62 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 62 and name SC1) (segid B and resid 62 and (name CB or name CG or name CD or name OE1 or name NE2)) 0 0 0
+assign (segid BCG and resid 63 and name BB) (segid B and resid 63 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 63 and name SC1) (segid B and resid 63 and (name CB or name CG or name CD)) 0 0 0
+assign (segid BCG and resid 63 and name SC2) (segid B and resid 63 and (name CE or name NZ)) 0 0 0
+assign (segid BCG and resid 64 and name BB) (segid B and resid 64 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 64 and name SC1) (segid B and resid 64 and (name CB or name CG or name CD or name OE1 or name OE2)) 0 0 0
+assign (segid BCG and resid 65 and name BB) (segid B and resid 65 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 65 and name SC1) (segid B and resid 65 and (name CB or name OG)) 0 0 0
+assign (segid BCG and resid 66 and name BB) (segid B and resid 66 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 66 and name SC1) (segid B and resid 66 and (name CB or name OG1 or name CG2)) 0 0 0
+assign (segid BCG and resid 67 and name BB) (segid B and resid 67 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 67 and name SC1) (segid B and resid 67 and (name CB or name CG or name CD1 or name CD2)) 0 0 0
+assign (segid BCG and resid 68 and name BB) (segid B and resid 68 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 68 and name SC1) (segid B and resid 68 and (name CB or name CG)) 0 0 0
+assign (segid BCG and resid 68 and name SC2) (segid B and resid 68 and (name CD2 or name NE2)) 0 0 0
+assign (segid BCG and resid 68 and name SC3) (segid B and resid 68 and (name ND1 or name CE1)) 0 0 0
+assign (segid BCG and resid 69 and name BB) (segid B and resid 69 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 69 and name SC1) (segid B and resid 69 and (name CB or name CG or name CD1 or name CD2)) 0 0 0
+assign (segid BCG and resid 70 and name BB) (segid B and resid 70 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 70 and name SC1) (segid B and resid 70 and (name CB or name CG1 or name CG2)) 0 0 0
+assign (segid BCG and resid 71 and name BB) (segid B and resid 71 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid BCG and resid 71 and name SC1) (segid B and resid 71 and (name CB or name CG or name CD1 or name CD2)) 0 0 0assign (segid ACG and resid 932 and name BB) (segid A and resid 932 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid ACG and resid 932 and name SC1) (segid A and resid 932 and (name CB or name CG1 or name CG2)) 0 0 0
+assign (segid ACG and resid 933 and name BB) (segid A and resid 933 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid ACG and resid 933 and name SC1) (segid A and resid 933 and (name CB or name CG or name OD1 or name OD2)) 0 0 0
+assign (segid ACG and resid 934 and name BB) (segid A and resid 934 and (name CA or name C or name N or name O or name CB)) 0 0 0
+assign (segid ACG and resid 935 and name BB) (segid A and resid 935 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid ACG and resid 935 and name SC1) (segid A and resid 935 and (name CB or name CG or name CD)) 0 0 0
+assign (segid ACG and resid 935 and name SC2) (segid A and resid 935 and (name CE or name NZ)) 0 0 0
+assign (segid ACG and resid 936 and name BB) (segid A and resid 936 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid ACG and resid 936 and name SC1) (segid A and resid 936 and (name CB or name CG1 or name CG2 or name CD1)) 0 0 0
+assign (segid ACG and resid 937 and name BB) (segid A and resid 937 and (name CA or name C or name N or name O or name CB)) 0 0 0
+assign (segid ACG and resid 938 and name BB) (segid A and resid 938 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid ACG and resid 938 and name SC1) (segid A and resid 938 and (name CB or name CG or name CD)) 0 0 0
+assign (segid ACG and resid 938 and name SC2) (segid A and resid 938 and (name CE or name NZ)) 0 0 0
+assign (segid ACG and resid 939 and name BB) (segid A and resid 939 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid ACG and resid 939 and name SC1) (segid A and resid 939 and (name CB or name CG or name CD1 or name CD2)) 0 0 0
+assign (segid ACG and resid 941 and name BB) (segid A and resid 941 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid ACG and resid 942 and name BB) (segid A and resid 942 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid ACG and resid 942 and name SC1) (segid A and resid 942 and (name CB or name CG or name CD or name OE1 or name OE2)) 0 0 0
+assign (segid ACG and resid 943 and name BB) (segid A and resid 943 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid ACG and resid 944 and name BB) (segid A and resid 944 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid ACG and resid 944 and name SC1) (segid A and resid 944 and (name CB or name CG or name CD1)) 0 0 0
+assign (segid ACG and resid 944 and name SC2) (segid A and resid 944 and (name CD2 or name CE2)) 0 0 0
+assign (segid ACG and resid 944 and name SC3) (segid A and resid 944 and (name CE1 or name CZ or name OH)) 0 0 0
+assign (segid ACG and resid 945 and name BB) (segid A and resid 945 and (name CA or name C or name N or name O or name CB)) 0 0 0
+assign (segid ACG and resid 946 and name BB) (segid A and resid 946 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid ACG and resid 946 and name SC1) (segid A and resid 946 and (name CB or name CG or name CD1)) 0 0 0
+assign (segid ACG and resid 946 and name SC2) (segid A and resid 946 and (name CD2 or name CE2)) 0 0 0
+assign (segid ACG and resid 946 and name SC3) (segid A and resid 946 and (name CE1 or name CZ)) 0 0 0
+assign (segid ACG and resid 947 and name BB) (segid A and resid 947 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid ACG and resid 947 and name SC1) (segid A and resid 947 and (name CB or name CG or name CD or name OE1 or name OE2)) 0 0 0
+assign (segid ACG and resid 948 and name BB) (segid A and resid 948 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid ACG and resid 948 and name SC1) (segid A and resid 948 and (name CB or name CG or name CD or name OE1 or name OE2)) 0 0 0
+assign (segid ACG and resid 949 and name BB) (segid A and resid 949 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid ACG and resid 949 and name SC1) (segid A and resid 949 and (name CB or name CG1 or name CG2)) 0 0 0
+assign (segid ACG and resid 950 and name BB) (segid A and resid 950 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid ACG and resid 950 and name SC1) (segid A and resid 950 and (name CB or name CG or name CD)) 0 0 0
+assign (segid ACG and resid 950 and name SC2) (segid A and resid 950 and (name CE or name NZ)) 0 0 0
+assign (segid ACG and resid 951 and name BB) (segid A and resid 951 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid ACG and resid 951 and name SC1) (segid A and resid 951 and (name CB or name CG or name CD)) 0 0 0
+assign (segid ACG and resid 951 and name SC2) (segid A and resid 951 and (name NE or name CZ or name NH1 or name NH2)) 0 0 0
+assign (segid ACG and resid 952 and name BB) (segid A and resid 952 and (name CA or name C or name N or name O or name CB)) 0 0 0
+assign (segid ACG and resid 953 and name BB) (segid A and resid 953 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid ACG and resid 953 and name SC1) (segid A and resid 953 and (name CB or name CG or name CD1 or name CD2)) 0 0 0
+assign (segid ACG and resid 954 and name BB) (segid A and resid 954 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid ACG and resid 954 and name SC1) (segid A and resid 954 and (name CB or name CG or name CD or name OE1 or name OE2)) 0 0 0
+assign (segid ACG and resid 955 and name BB) (segid A and resid 955 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid ACG and resid 955 and name SC1) (segid A and resid 955 and (name CB or name CG1 or name CG2 or name CD1)) 0 0 0
+assign (segid ACG and resid 956 and name BB) (segid A and resid 956 and (name CA or name C or name N or name O or name CB)) 0 0 0
+assign (segid ACG and resid 957 and name BB) (segid A and resid 957 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid ACG and resid 957 and name SC1) (segid A and resid 957 and (name CB or name CG or name CD or name OE1 or name NE2)) 0 0 0
+assign (segid ACG and resid 958 and name BB) (segid A and resid 958 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid ACG and resid 958 and name SC1) (segid A and resid 958 and (name CB or name CG or name ND2 or name OD1)) 0 0 0
+assign (segid ACG and resid 959 and name BB) (segid A and resid 959 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid ACG and resid 959 and name SC1) (segid A and resid 959 and (name CB or name CG or name ND2 or name OD1)) 0 0 0
+assign (segid ACG and resid 960 and name BB) (segid A and resid 960 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid ACG and resid 960 and name SC1) (segid A and resid 960 and (name CB or name CG1 or name CG2)) 0 0 0
+assign (segid ACG and resid 961 and name BB) (segid A and resid 961 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid ACG and resid 961 and name SC1) (segid A and resid 961 and (name CB or name CG or name CD or name OE1 or name OE2)) 0 0 0
+assign (segid ACG and resid 962 and name BB) (segid A and resid 962 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid ACG and resid 962 and name SC1) (segid A and resid 962 and (name CB or name CG1 or name CG2)) 0 0 0
+assign (segid ACG and resid 963 and name BB) (segid A and resid 963 and (name CA or name C or name N or name O or name CB)) 0 0 0
+assign (segid ACG and resid 964 and name BB) (segid A and resid 964 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid ACG and resid 964 and name SC1) (segid A and resid 964 and (name CB or name CG or name CD)) 0 0 0
+assign (segid ACG and resid 964 and name SC2) (segid A and resid 964 and (name NE or name CZ or name NH1 or name NH2)) 0 0 0
+assign (segid ACG and resid 965 and name BB) (segid A and resid 965 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid ACG and resid 965 and name SC1) (segid A and resid 965 and (name CB or name OG)) 0 0 0
+assign (segid ACG and resid 966 and name BB) (segid A and resid 966 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid ACG and resid 966 and name SC1) (segid A and resid 966 and (name CB or name CG1 or name CG2 or name CD1)) 0 0 0
+assign (segid ACG and resid 967 and name BB) (segid A and resid 967 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid ACG and resid 967 and name SC1) (segid A and resid 967 and (name CB or name CG or name CD1 or name CD2)) 0 0 0
+assign (segid ACG and resid 968 and name BB) (segid A and resid 968 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid ACG and resid 968 and name SC1) (segid A and resid 968 and (name CB or name CG or name CD)) 0 0 0
+assign (segid ACG and resid 968 and name SC2) (segid A and resid 968 and (name NE or name CZ or name NH1 or name NH2)) 0 0 0
+assign (segid ACG and resid 969 and name BB) (segid A and resid 969 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid ACG and resid 969 and name SC1) (segid A and resid 969 and (name CB or name CG or name CD or name OE1 or name OE2)) 0 0 0
+assign (segid ACG and resid 970 and name BB) (segid A and resid 970 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid ACG and resid 970 and name SC1) (segid A and resid 970 and (name CB or name CG or name CD1)) 0 0 0
+assign (segid ACG and resid 970 and name SC2) (segid A and resid 970 and (name CD2 or name CE2)) 0 0 0
+assign (segid ACG and resid 970 and name SC3) (segid A and resid 970 and (name CE1 or name CZ)) 0 0 0
+assign (segid ACG and resid 971 and name BB) (segid A and resid 971 and (name CA or name C or name N or name O or name CB)) 0 0 0
+assign (segid ACG and resid 972 and name BB) (segid A and resid 972 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid ACG and resid 972 and name SC1) (segid A and resid 972 and (name CB or name CG or name CD1)) 0 0 0
+assign (segid ACG and resid 972 and name SC2) (segid A and resid 972 and (name CD2 or name CE2)) 0 0 0
+assign (segid ACG and resid 972 and name SC3) (segid A and resid 972 and (name CE1 or name CZ)) 0 0 0
+assign (segid ACG and resid 973 and name BB) (segid A and resid 973 and (name CA or name C or name N or name O)) 0 0 0
+assign (segid ACG and resid 973 and name SC1) (segid A and resid 973 and (name CB or name CG or name CD)) 0 0 0
