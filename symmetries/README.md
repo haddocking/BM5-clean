@@ -1,6 +1,6 @@
 # Symmetry
 
-Symmetries for each complex of the Benchmark5.0 (receptor and ligand) has been calculated using [AnAnaS v.1.1](https://team.inria.fr/nano-d/software/ananas/).
+Symmetries for each complex of the Benchmark v5.0 (receptor and ligand) have been calculated using [AnAnaS v.1.1](https://team.inria.fr/nano-d/software/ananas/).
 
 For each complex:
 
