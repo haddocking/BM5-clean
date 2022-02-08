@@ -4,10 +4,11 @@ Docking benchmark 5 (BM5) - cleaned and ready to use for HADDOCK
 
 This is the docking and binding affinity benchmark descripts in:
 
-T Vreven+, I.H. Moal+, A. Vangone+, B.G. Pierce, P.L. Kastritis, M. Torchala, R. Chaleil, 
-B. Jimenez-Garcia, P.A. Bates#, Juan Fernandez-Recio#, A.M.J.J. Bonvin# and Z. Weng#.<BR> 
-Updates to the integrated protein-protein interaction benchmarks: Docking benchmark version 5 and affinity benchmark version 2. <BR>
-_J. Mol. Biol._ *19*, 3031-3041 (2015).
+T Vreven, I.H. Moal, A. Vangone, B.G. Pierce, P.L. Kastritis, M. Torchala, R. Chaleil, 
+B. Jimenez-Garcia, P.A. Bates, Juan Fernandez-Recio, A.M.J.J. Bonvin and Z. Weng.  
+**Updates to the integrated protein-protein interaction benchmarks: Docking benchmark version 5 and affinity benchmark version 2**. <BR>
+_J. Mol. Biol._ *19*, 3031-3041 (2015).  
+<https://doi.org/doi:10.1016/j.jmb.2015.07.016>
 
 The repository contains the following information:
 
