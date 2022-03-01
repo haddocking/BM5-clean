@@ -4,7 +4,7 @@ Docking benchmark 5 (BM5) - cleaned and ready to use for HADDOCK
 
 [![DOI](https://zenodo.org/badge/162272657.svg)](https://zenodo.org/badge/latestdoi/162272657)
 
-This is the docking and binding affinity benchmark descripts in:
+This is the docking and binding affinity benchmark described in:
 
 T Vreven, I.H. Moal, A. Vangone, B.G. Pierce, P.L. Kastritis, M. Torchala, R. Chaleil, 
 B. Jimenez-Garcia, P.A. Bates, Juan Fernandez-Recio, A.M.J.J. Bonvin and Z. Weng.  
