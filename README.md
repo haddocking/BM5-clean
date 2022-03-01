@@ -27,8 +27,6 @@ Each sub-directory (one per complex) contains the following files:
 
 And for each PDB there is an associated `.info` file providing statistics of the PDB content
 
-
-
 Various distance restraints files are present:
 
 * `ambig.tbl` : Ambiguous interaction restraints based on the true interface measured with a 3.9A cutoff
