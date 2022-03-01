@@ -23,8 +23,11 @@ Each sub-directory (one per complex) contains the following files:
 * `XXX_l_u.pdb` : Unbound ligand PDB
 * `XXX_r_b-matched.pdb` : Matched bound receptor PDB
 * `XXX_l_b-matched.pdb` : Matched bound ligang PDB
+* `XXX_r_u_cg.pdb` : Coarse-grain models for the receptor proteins
 
 And for each PDB there is an associated `.info` file providing statistics of the PDB content
+
+
 
 Various distance restraints files are present:
 
