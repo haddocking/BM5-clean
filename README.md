@@ -23,8 +23,8 @@ Each sub-directory (one per complex) contains the following files:
 * `XXX_l_u.pdb` : Unbound ligand PDB
 * `XXX_r_b-matched.pdb` : Matched bound receptor PDB
 * `XXX_l_b-matched.pdb` : Matched bound ligang PDB
-* `XXX_r_u_cg.pdb` : Martini coarse-grain models for the receptor proteins
-* `XXX_l_u_cg.pdb` : Martini coarse-grain models for the ligand proteins
+* `XXX_r_u_cg.pdb` : Martini v2 coarse-grain models for the receptor proteins
+* `XXX_l_u_cg.pdb` : Martini v2 coarse-grain models for the ligand proteins
 
 And for each PDB there is an associated `.info` file providing statistics of the PDB content
 
