@@ -3,7 +3,6 @@
 Docking benchmark 5 (BM5) - cleaned and ready to use for HADDOCK
 
 [![DOI](https://zenodo.org/badge/162272657.svg)](https://zenodo.org/badge/latestdoi/162272657)
-
 This is the docking and binding affinity benchmark described in:
 
 T Vreven, I.H. Moal, A. Vangone, B.G. Pierce, P.L. Kastritis, M. Torchala, R. Chaleil,
@@ -32,6 +31,7 @@ And for each PDB there is an associated `.info` file providing statistics of the
 Various distance restraints files are present:
 
 * `XXX_ambig.tbl` : Ambiguous interaction restraints based on the true interface measured with a 3.9A cutoff
+* `XXX_ambig5.tbl`: Ambiguous interaction restraints based on the true interface measured with a 5.0A cutoff
 * `XXX_restraint-bodies.tbl` : If present, contains a list of distance restraints to keep unconnected bodies together
 * `XXX_XXX_*.tbl` : If present, contains a list of distance restraints to keep the ligand in place in the structure
 * `XXX_hbonds.tbl` : the combination of the bodies and ligand distance restraints (used in HADDOCK)
