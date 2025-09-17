@@ -1,0 +1,12 @@
+! Restraints to fix GTN in its initial position
+assign (segi B    and resi   16 and name "NZ"  )
+     (segi B    and resi  167 and name "N3B" )  4.081 1.00 1.00
+assign (segi B    and resi  145 and name "C"   )
+     (segi B    and resi  167 and name "N7"  )  5.945 1.00 1.00
+assign (segi B    and resi  147 and name "CD"  )
+     (segi B    and resi  167 and name "O3*" )  9.033 1.00 1.00
+assign (segi B    and resi   85 and name "OD1" )
+     (segi B    and resi  167 and name "C6"  )  7.995 1.00 1.00
+assign (segi B    and resi   14 and name "N"   )
+     (segi B    and resi  167 and name "O1B" )  3.132 1.00 1.00
+

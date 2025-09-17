@@ -1,0 +1,14 @@
+assign (segid A and resi 215 and name CA) (segid A and resi 654 and name CA) 85.578 0.0 0.0
+assign (segid A and resi 156 and name CA) (segid A and resi 540 and name CA) 103.052 0.0 0.0
+! Restraints to fix GNP in its initial position
+assign (segi B    and resi   12 and name "CA"  )
+     (segi B    and resi  200 and name "O1G" )  3.443 1.00 1.00
+assign (segi B    and resi   22 and name "CB"  )
+     (segi B    and resi  200 and name "N7"  )  7.615 1.00 1.00
+assign (segi B    and resi   30 and name "O"   )
+     (segi B    and resi  200 and name "O3*" )  7.270 1.00 1.00
+assign (segi B    and resi   85 and name "CG2" )
+     (segi B    and resi  200 and name "C6"  )  8.394 1.00 1.00
+assign (segi B    and resi   14 and name "N"   )
+     (segi B    and resi  200 and name "O1B" )  3.300 1.00 1.00
+

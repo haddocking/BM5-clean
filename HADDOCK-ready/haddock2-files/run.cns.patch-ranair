@@ -1,0 +1,45 @@
+--- run.cns	2018-12-23 13:49:12.713743788 +0100
++++ ../../data/run.cns.refe-ranair	2018-12-23 13:25:49.786075074 +0100
+@@ -3054,13 +3054,13 @@
+ 
+ {* Do you want to use hydrogen bond restraints? *}
+ {+ choice: true false +}
+-{===>} hbonds_on=false;
++{===>} hbonds_on=true;
+ 
+ {* Do you want to define randomly ambiguous interaction restraints from accessible residues? *}
+ {* Only residues in the defined flexible segments will be considered *}
+ {* Note that this option is exclusive with any other distance restraints and only for it0    *}
+ {+ choice: true false +}
+-{===>} ranair=false;
++{===>} ranair=true;
+ 
+ {* Do you want to define center of mass (CM) restraints to enforce contact between the molecules? *}
+ {* Note that these are only active during it0 and it1 *}
+@@ -4366,14 +4366,14 @@
+ {* Setting for the rigid-body (it0) and semi-flexible refiment (it1) *}
+ 
+ {* number of structures for rigid body docking *}
+-{===>} structures_0=1000;
++{===>} structures_0=10000;
+        keepstruct_0=&structures_0;
+ {* number of structures for refinement *}
+-{===>} structures_1=200;
++{===>} structures_1=400;
+        keepstruct_1=&structures_1;
+        keepstruct_2=&structures_1;
+ {* number of structures to be analysed*}
+-{===>} anastruc_1=200;
++{===>} anastruc_1=400;
+        anastruc_0=&anastruc_1;
+        anastruc_2=&anastruc_1;
+ 
+@@ -4544,7 +4544,7 @@
+ 
+ {* number of structures for the explicit solvent refinement *}
+ {* the n best structures will be refined                    *}
+-{===>} waterrefine=200;
++{===>} waterrefine=400;
+        structures_2=&waterrefine;
+ 
+ {* number of steps for heating phase (100, 200, 300K)?      *}

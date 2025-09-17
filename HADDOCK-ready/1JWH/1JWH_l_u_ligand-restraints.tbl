@@ -1,0 +1,12 @@
+! Restraints to fix EMO in its initial position
+assign (segi B    and resi  174 and name "CG2" )
+     (segi B    and resi  400 and name "C1"  )  3.820 1.00 1.00
+assign (segi B    and resi   46 and name "N"   )
+     (segi B    and resi  400 and name "C9"  )  5.205 1.00 1.00
+assign (segi B    and resi  161 and name "OD1" )
+     (segi B    and resi  400 and name "O6"  )  5.337 1.00 1.00
+assign (segi B    and resi  120 and name "OD2" )
+     (segi B    and resi  400 and name "C10" )  5.854 1.00 1.00
+assign (segi B    and resi  175 and name "N"   )
+     (segi B    and resi  400 and name "C3"  )  3.448 1.00 1.00
+

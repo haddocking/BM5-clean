@@ -1,0 +1,18 @@
+assign (segid A and resi 18 and name CA) (segid A and resi 523 and name CA) 28.400 0.0 0.0
+assign (segid A and resi 14 and name CA) (segid A and resi 567 and name CA) 31.767 0.0 0.0
+assign (segid A and resi 100 and name CA) (segid A and resi 609 and name CA) 12.584 0.0 0.0
+assign (segid A and resi 72 and name CA) (segid A and resi 633 and name CA) 37.925 0.0 0.0
+assign (segid A and resi 525 and name CA) (segid A and resi 617 and name CA) 12.851 0.0 0.0
+assign (segid A and resi 560 and name CA) (segid A and resi 606 and name CA) 13.496 0.0 0.0
+! Restraints to fix HEC in its initial position
+assign (segi A    and resi   58 and name "CE1" )
+     (segi A    and resi  142 and name "CHA" )  3.397 1.00 1.00
+assign (segi A    and resi   42 and name "CB"  )
+     (segi A    and resi  142 and name "C1C" )  7.404 1.00 1.00
+assign (segi A    and resi   84 and name "O"   )
+     (segi A    and resi  142 and name "CMC" ) 11.363 1.00 1.00
+assign (segi A    and resi   46 and name "CZ"  )
+     (segi A    and resi  142 and name "CGA" )  9.021 1.00 1.00
+assign (segi A    and resi   86 and name "CD2" )
+     (segi A    and resi  142 and name "CMA" )  6.590 1.00 1.00
+

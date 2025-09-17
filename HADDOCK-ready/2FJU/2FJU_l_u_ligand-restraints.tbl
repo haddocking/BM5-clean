@@ -1,0 +1,12 @@
+! Restraints to fix GNP in its initial position
+assign (segi B    and resi   16 and name "N"   )
+     (segi B    and resi  200 and name "PB"  )  3.525 1.00 1.00
+assign (segi B    and resi  115 and name "OG1" )
+     (segi B    and resi  200 and name "O3A" )  7.985 1.00 1.00
+assign (segi B    and resi  158 and name "OG"  )
+     (segi B    and resi  200 and name "N2"  )  5.857 1.00 1.00
+assign (segi B    and resi   83 and name "OG"  )
+     (segi B    and resi  200 and name "C4"  )  7.698 1.00 1.00
+assign (segi B    and resi   14 and name "C"   )
+     (segi B    and resi  200 and name "O4'" )  5.292 1.00 1.00
+

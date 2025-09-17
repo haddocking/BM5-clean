@@ -1,0 +1,4 @@
+! Restraints to fix CA2 in its initial position
+assign (segi B    and resi  144 and name "OG"  )
+     (segi B    and resi  400 and name "CA+2")  2.295 1.00 1.00
+

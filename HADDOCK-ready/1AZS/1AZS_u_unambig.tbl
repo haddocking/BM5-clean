@@ -1,0 +1,44 @@
+assign (segid B and resi 51 and name CA) (segid B and resi 122 and name CA) 37.310 0.0 0.0
+assign (segid B and resi 64 and name CA) (segid B and resi 114 and name CA) 47.938 0.0 0.0
+assign (segid A and resi 388 and name CA) (segid A and resi 520 and name CA) 12.863 0.0 0.0
+assign (segid A and resi 450 and name CA) (segid A and resi 514 and name CA) 22.123 0.0 0.0
+assign (segid A and resi 453 and name CA) (segid A and resi 575 and name CA) 29.830 0.0 0.0
+assign (segid A and resi 412 and name CA) (segid A and resi 574 and name CA) 30.182 0.0 0.0
+assign (segid A and resi 405 and name CA) (segid A and resi 1383 and name CA) 16.724 0.0 0.0
+assign (segid A and resi 416 and name CA) (segid A and resi 1407 and name CA) 36.439 0.0 0.0
+assign (segid A and resi 437 and name CA) (segid A and resi 1519 and name CA) 19.011 0.0 0.0
+assign (segid A and resi 391 and name CA) (segid A and resi 1488 and name CA) 38.497 0.0 0.0
+assign (segid A and resi 417 and name CA) (segid A and resi 1573 and name CA) 37.972 0.0 0.0
+assign (segid A and resi 442 and name CA) (segid A and resi 1572 and name CA) 28.230 0.0 0.0
+assign (segid A and resi 503 and name CA) (segid A and resi 574 and name CA) 18.062 0.0 0.0
+assign (segid A and resi 533 and name CA) (segid A and resi 575 and name CA) 14.717 0.0 0.0
+assign (segid A and resi 499 and name CA) (segid A and resi 1446 and name CA) 28.394 0.0 0.0
+assign (segid A and resi 478 and name CA) (segid A and resi 1395 and name CA) 34.128 0.0 0.0
+assign (segid A and resi 499 and name CA) (segid A and resi 1468 and name CA) 39.169 0.0 0.0
+assign (segid A and resi 544 and name CA) (segid A and resi 1488 and name CA) 39.643 0.0 0.0
+assign (segid A and resi 538 and name CA) (segid A and resi 1572 and name CA) 36.847 0.0 0.0
+assign (segid A and resi 482 and name CA) (segid A and resi 1576 and name CA) 47.313 0.0 0.0
+assign (segid A and resi 576 and name CA) (segid A and resi 1424 and name CA) 47.698 0.0 0.0
+assign (segid A and resi 575 and name CA) (segid A and resi 1399 and name CA) 29.450 0.0 0.0
+assign (segid A and resi 576 and name CA) (segid A and resi 1504 and name CA) 42.496 0.0 0.0
+assign (segid A and resi 574 and name CA) (segid A and resi 1493 and name CA) 38.916 0.0 0.0
+assign (segid A and resi 575 and name CA) (segid A and resi 1576 and name CA) 48.299 0.0 0.0
+assign (segid A and resi 574 and name CA) (segid A and resi 1572 and name CA) 39.597 0.0 0.0
+assign (segid A and resi 1382 and name CA) (segid A and resi 1518 and name CA) 12.792 0.0 0.0
+assign (segid A and resi 1393 and name CA) (segid A and resi 1505 and name CA) 25.638 0.0 0.0
+assign (segid A and resi 1394 and name CA) (segid A and resi 1572 and name CA) 21.424 0.0 0.0
+assign (segid A and resi 1438 and name CA) (segid A and resi 1576 and name CA) 24.044 0.0 0.0
+assign (segid A and resi 1507 and name CA) (segid A and resi 1572 and name CA) 27.631 0.0 0.0
+assign (segid A and resi 1514 and name CA) (segid A and resi 1576 and name CA) 37.648 0.0 0.0
+! Restraints to fix GSP in its initial position
+assign (segi B    and resi   53 and name "NZ"  )
+     (segi B    and resi  395 and name "O3B" )  3.967 1.00 1.00
+assign (segi B    and resi  365 and name "C"   )
+     (segi B    and resi  395 and name "N7"  )  5.448 1.00 1.00
+assign (segi B    and resi  198 and name "O"   )
+     (segi B    and resi  395 and name "O3'" )  4.904 1.00 1.00
+assign (segi B    and resi  251 and name "OG"  )
+     (segi B    and resi  395 and name "C6"  )  6.972 1.00 1.00
+assign (segi B    and resi   52 and name "N"   )
+     (segi B    and resi  395 and name "O1B" )  3.224 1.00 1.00
+

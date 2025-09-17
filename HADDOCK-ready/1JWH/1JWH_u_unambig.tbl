@@ -1,0 +1,24 @@
+assign (segid A and resi 54 and name CA) (segid A and resi 82 and name CA) 14.749 0.0 0.0
+assign (segid A and resi 39 and name CA) (segid A and resi 78 and name CA) 9.906 0.0 0.0
+assign (segid A and resi 11 and name CA) (segid A and resi 542 and name CA) 56.845 0.0 0.0
+assign (segid A and resi 47 and name CA) (segid A and resi 559 and name CA) 79.639 0.0 0.0
+assign (segid A and resi 44 and name CA) (segid A and resi 660 and name CA) 56.153 0.0 0.0
+assign (segid A and resi 23 and name CA) (segid A and resi 592 and name CA) 52.441 0.0 0.0
+assign (segid A and resi 162 and name CA) (segid A and resi 526 and name CA) 53.981 0.0 0.0
+assign (segid A and resi 191 and name CA) (segid A and resi 512 and name CA) 35.909 0.0 0.0
+assign (segid A and resi 168 and name CA) (segid A and resi 652 and name CA) 31.470 0.0 0.0
+assign (segid A and resi 151 and name CA) (segid A and resi 567 and name CA) 46.827 0.0 0.0
+assign (segid A and resi 510 and name CA) (segid A and resi 594 and name CA) 17.492 0.0 0.0
+assign (segid A and resi 517 and name CA) (segid A and resi 628 and name CA) 20.787 0.0 0.0
+! Restraints to fix EMO in its initial position
+assign (segi B    and resi  174 and name "CG2" )
+     (segi B    and resi  400 and name "C1"  )  3.820 1.00 1.00
+assign (segi B    and resi   46 and name "N"   )
+     (segi B    and resi  400 and name "C9"  )  5.205 1.00 1.00
+assign (segi B    and resi  161 and name "OD1" )
+     (segi B    and resi  400 and name "O6"  )  5.337 1.00 1.00
+assign (segi B    and resi  120 and name "OD2" )
+     (segi B    and resi  400 and name "C10" )  5.854 1.00 1.00
+assign (segi B    and resi  175 and name "N"   )
+     (segi B    and resi  400 and name "C3"  )  3.448 1.00 1.00
+

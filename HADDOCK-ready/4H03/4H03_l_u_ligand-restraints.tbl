@@ -1,0 +1,12 @@
+! Restraints to fix ATP in its initial position
+assign (segi B    and resi  157 and name "N"   )
+     (segi B    and resi  380 and name "PG"  )  3.444 1.00 1.00
+assign (segi B    and resi  304 and name "N"   )
+     (segi B    and resi  380 and name "N9"  )  6.290 1.00 1.00
+assign (segi B    and resi  300 and name "C"   )
+     (segi B    and resi  380 and name "C6"  ) 10.670 1.00 1.00
+assign (segi B    and resi  155 and name "O"   )
+     (segi B    and resi  380 and name "O3A" )  5.585 1.00 1.00
+assign (segi B    and resi  302 and name "N"   )
+     (segi B    and resi  380 and name "PA"  )  3.712 1.00 1.00
+

@@ -1,0 +1,12 @@
+! Restraints to fix FAD in its initial position
+assign (segi A    and resi  130 and name "NH2" )
+     (segi A    and resi 1449 and name "O1A" )  2.782 1.00 1.00
+assign (segi A    and resi  290 and name "CA"  )
+     (segi A    and resi 1449 and name "C2"  )  4.737 1.00 1.00
+assign (segi A    and resi  271 and name "O"   )
+     (segi A    and resi 1449 and name "N6A" ) 12.317 1.00 1.00
+assign (segi A    and resi   49 and name "CG"  )
+     (segi A    and resi 1449 and name "N3"  )  5.136 1.00 1.00
+assign (segi A    and resi   14 and name "CA"  )
+     (segi A    and resi 1449 and name "O4B" )  3.201 1.00 1.00
+

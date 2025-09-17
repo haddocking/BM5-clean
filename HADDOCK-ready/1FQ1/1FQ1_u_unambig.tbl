@@ -1,0 +1,14 @@
+assign (segid B and resi 6 and name CA) (segid B and resi 143 and name CA) 23.329 0.0 0.0
+assign (segid B and resi 28 and name CA) (segid B and resi 276 and name CA) 36.548 0.0 0.0
+! Restraints to fix ATP in its initial position
+assign (segi B    and resi  129 and name "NZ"  )
+     (segi B    and resi  381 and name "PG"  )  3.326 1.00 1.00
+assign (segi B    and resi   83 and name "O"   )
+     (segi B    and resi  381 and name "N9"  )  6.198 1.00 1.00
+assign (segi B    and resi   64 and name "CG1" )
+     (segi B    and resi  381 and name "C6"  )  4.942 1.00 1.00
+assign (segi B    and resi   16 and name "O"   )
+     (segi B    and resi  381 and name "O3A" )  5.973 1.00 1.00
+assign (segi B    and resi   33 and name "NZ"  )
+     (segi B    and resi  381 and name "PA"  )  3.618 1.00 1.00
+

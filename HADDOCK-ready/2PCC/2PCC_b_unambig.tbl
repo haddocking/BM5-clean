@@ -1,0 +1,12 @@
+! Restraints to fix HEC in its initial position
+assign (segi A    and resi  191 and name "CH2" )
+     (segi A    and resi  296 and name "CHA" )  3.514 1.00 1.00
+assign (segi A    and resi  202 and name "CZ"  )
+     (segi A    and resi  296 and name "CBB" )  9.294 1.00 1.00
+assign (segi A    and resi  234 and name "OG1" )
+     (segi A    and resi  296 and name "C1B" )  5.104 1.00 1.00
+assign (segi A    and resi  173 and name "N"   )
+     (segi A    and resi  296 and name "C1C" )  7.252 1.00 1.00
+assign (segi A    and resi  180 and name "CG2" )
+     (segi A    and resi  296 and name "C1A" )  4.911 1.00 1.00
+

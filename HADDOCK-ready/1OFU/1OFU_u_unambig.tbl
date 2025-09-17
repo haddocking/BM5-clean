@@ -1,0 +1,14 @@
+assign (segid A and resi 152 and name CA) (segid A and resi 554 and name CA) 15.764 0.0 0.0
+assign (segid A and resi 139 and name CA) (segid A and resi 626 and name CA) 42.182 0.0 0.0
+! Restraints to fix GDP in its initial position
+assign (segi B    and resi   22 and name "N"   )
+     (segi B    and resi 1317 and name "PA"  )  4.014 1.00 1.00
+assign (segi B    and resi   25 and name "OD1" )
+     (segi B    and resi 1317 and name "C4"  )  5.833 1.00 1.00
+assign (segi B    and resi  103 and name "C"   )
+     (segi B    and resi 1317 and name "N7"  )  8.528 1.00 1.00
+assign (segi B    and resi  187 and name "OD2" )
+     (segi B    and resi 1317 and name "N1"  )  2.930 1.00 1.00
+assign (segi B    and resi  183 and name "CE2" )
+     (segi B    and resi 1317 and name "C2'" )  3.923 1.00 1.00
+

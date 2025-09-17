@@ -1,0 +1,12 @@
+! Restraints to fix ADP in its initial position
+assign (segi B    and resi  202 and name "N"   )
+     (segi B    and resi  383 and name "PB"  )  4.046 1.00 1.00
+assign (segi B    and resi  234 and name "OD2" )
+     (segi B    and resi  383 and name "O4'" )  7.776 1.00 1.00
+assign (segi B    and resi  364 and name "CB"  )
+     (segi B    and resi  383 and name "O2'" ) 12.913 1.00 1.00
+assign (segi B    and resi  275 and name "OG"  )
+     (segi B    and resi  383 and name "C5"  )  4.959 1.00 1.00
+assign (segi B    and resi  340 and name "N"   )
+     (segi B    and resi  383 and name "N9"  )  4.191 1.00 1.00
+

@@ -1,0 +1,12 @@
+! Restraints to fix GDP in its initial position
+assign (segi A    and resi  113 and name "OG1" )
+     (segi A    and resi  900 and name "PA"  )  3.689 1.00 1.00
+assign (segi A    and resi  271 and name "O"   )
+     (segi A    and resi  900 and name "C4"  )  6.667 1.00 1.00
+assign (segi A    and resi  243 and name "CG1" )
+     (segi A    and resi  900 and name "N7"  )  7.634 1.00 1.00
+assign (segi A    and resi  248 and name "OD1" )
+     (segi A    and resi  900 and name "N1"  )  2.926 1.00 1.00
+assign (segi A    and resi  273 and name "O"   )
+     (segi A    and resi  900 and name "C2'" )  6.681 1.00 1.00
+

@@ -1,0 +1,12 @@
+! Restraints to fix GTP in its initial position
+assign (segi A    and resi   30 and name "NZ"  )
+     (segi A    and resi 1001 and name "PG"  )  3.796 1.00 1.00
+assign (segi A    and resi  129 and name "OD2" )
+     (segi A    and resi 1001 and name "N9"  )  6.719 1.00 1.00
+assign (segi A    and resi   92 and name "O"   )
+     (segi A    and resi 1001 and name "C6"  )  8.266 1.00 1.00
+assign (segi A    and resi   46 and name "O"   )
+     (segi A    and resi 1001 and name "O2A" )  4.378 1.00 1.00
+assign (segi A    and resi   32 and name "OG1" )
+     (segi A    and resi 1001 and name "O3A" )  5.111 1.00 1.00
+

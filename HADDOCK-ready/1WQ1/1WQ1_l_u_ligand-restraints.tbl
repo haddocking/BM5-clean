@@ -1,0 +1,12 @@
+! Restraints to fix GCP in its initial position
+assign (segi B    and resi   34 and name "CB"  )
+     (segi B    and resi  180 and name "O1C" )  3.108 1.00 1.00
+assign (segi B    and resi   83 and name "CB"  )
+     (segi B    and resi  180 and name "N7"  )  7.339 1.00 1.00
+assign (segi B    and resi   32 and name "N"   )
+     (segi B    and resi  180 and name "O3*" )  5.880 1.00 1.00
+assign (segi B    and resi   85 and name "OD1" )
+     (segi B    and resi  180 and name "C6"  )  8.491 1.00 1.00
+assign (segi B    and resi   15 and name "N"   )
+     (segi B    and resi  180 and name "O2B" )  3.279 1.00 1.00
+

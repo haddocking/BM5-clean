@@ -1,0 +1,12 @@
+! Restraints to fix GSP in its initial position
+assign (segi B    and resi   52 and name "CA"  )
+     (segi B    and resi  395 and name "PA"  )  3.870 1.00 1.00
+assign (segi B    and resi  173 and name "OD2" )
+     (segi B    and resi  395 and name "C8"  )  5.616 1.00 1.00
+assign (segi B    and resi  204 and name "OG1" )
+     (segi B    and resi  395 and name "O2G" )  2.767 1.00 1.00
+assign (segi B    and resi  296 and name "CG"  )
+     (segi B    and resi  395 and name "N2"  )  3.476 1.00 1.00
+assign (segi B    and resi  293 and name "CE"  )
+     (segi B    and resi  395 and name "N3"  )  4.378 1.00 1.00
+

@@ -1,0 +1,36 @@
+assign (segid B and resi 75 and name CA) (segid B and resi 102 and name CA) 24.876 0.0 0.0
+assign (segid B and resi 69 and name CA) (segid B and resi 138 and name CA) 40.112 0.0 0.0
+assign (segid B and resi 57 and name CA) (segid B and resi 202 and name CA) 44.454 0.0 0.0
+assign (segid B and resi 74 and name CA) (segid B and resi 196 and name CA) 32.858 0.0 0.0
+assign (segid B and resi 79 and name CA) (segid B and resi 272 and name CA) 13.674 0.0 0.0
+assign (segid B and resi 59 and name CA) (segid B and resi 284 and name CA) 42.120 0.0 0.0
+assign (segid B and resi 103 and name CA) (segid B and resi 210 and name CA) 13.490 0.0 0.0
+assign (segid B and resi 121 and name CA) (segid B and resi 187 and name CA) 13.435 0.0 0.0
+assign (segid B and resi 103 and name CA) (segid B and resi 280 and name CA) 20.847 0.0 0.0
+assign (segid B and resi 122 and name CA) (segid B and resi 238 and name CA) 25.333 0.0 0.0
+assign (segid B and resi 156 and name CA) (segid B and resi 251 and name CA) 24.253 0.0 0.0
+assign (segid B and resi 170 and name CA) (segid B and resi 268 and name CA) 32.641 0.0 0.0
+! Restraints to fix GDP in its initial position
+assign (segi B    and resi  117 and name "OG1" )
+     (segi B    and resi 1001 and name "PA"  )  3.410 1.00 1.00
+assign (segi B    and resi  281 and name "C"   )
+     (segi B    and resi 1001 and name "C4"  )  6.621 1.00 1.00
+assign (segi B    and resi  229 and name "OD2" )
+     (segi B    and resi 1001 and name "N7"  )  7.579 1.00 1.00
+assign (segi B    and resi  258 and name "OD2" )
+     (segi B    and resi 1001 and name "N1"  )  2.886 1.00 1.00
+assign (segi B    and resi  283 and name "O"   )
+     (segi B    and resi 1001 and name "C2'" )  6.354 1.00 1.00
+
+! Restraints to fix GDP in its initial position
+assign (segi A    and resi  113 and name "OG1" )
+     (segi A    and resi  900 and name "PA"  )  3.689 1.00 1.00
+assign (segi A    and resi  271 and name "O"   )
+     (segi A    and resi  900 and name "C4"  )  6.667 1.00 1.00
+assign (segi A    and resi  243 and name "CG1" )
+     (segi A    and resi  900 and name "N7"  )  7.634 1.00 1.00
+assign (segi A    and resi  248 and name "OD1" )
+     (segi A    and resi  900 and name "N1"  )  2.926 1.00 1.00
+assign (segi A    and resi  273 and name "O"   )
+     (segi A    and resi  900 and name "C2'" )  6.681 1.00 1.00
+

@@ -1,0 +1,14 @@
+assign (segid A and resi 10 and name CA) (segid A and resi 273 and name CA) 29.764 0.0 0.0
+assign (segid A and resi 41 and name CA) (segid A and resi 248 and name CA) 43.250 0.0 0.0
+! Restraints to fix ATP in its initial position
+assign (segi A    and resi  157 and name "N"   )
+     (segi A    and resi  380 and name "PG"  )  3.444 1.00 1.00
+assign (segi A    and resi  304 and name "N"   )
+     (segi A    and resi  380 and name "N9"  )  6.289 1.00 1.00
+assign (segi A    and resi  300 and name "C"   )
+     (segi A    and resi  380 and name "C6"  ) 10.669 1.00 1.00
+assign (segi A    and resi  155 and name "O"   )
+     (segi A    and resi  380 and name "O3A" )  5.586 1.00 1.00
+assign (segi A    and resi  302 and name "N"   )
+     (segi A    and resi  380 and name "PA"  )  3.712 1.00 1.00
+

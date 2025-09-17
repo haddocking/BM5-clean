@@ -1,0 +1,12 @@
+! Restraints to fix NAI in its initial position
+assign (segi A    and resi  295 and name "NH2" )
+     (segi A    and resi  500 and name "PA"  )  4.041 1.00 1.00
+assign (segi A    and resi  348 and name "O"   )
+     (segi A    and resi  500 and name "C4A" ) 13.564 1.00 1.00
+assign (segi A    and resi  333 and name "CE1" )
+     (segi A    and resi  500 and name "C1B" )  6.675 1.00 1.00
+assign (segi A    and resi  299 and name "CD"  )
+     (segi A    and resi  500 and name "O3B" )  6.092 1.00 1.00
+assign (segi A    and resi  259 and name "CD1" )
+     (segi A    and resi  500 and name "N9A" )  5.855 1.00 1.00
+

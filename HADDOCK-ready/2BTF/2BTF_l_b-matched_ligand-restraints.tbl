@@ -1,0 +1,8 @@
+! Restraints to fix ACE in its initial position
+assign (segi B    and resi    1 and name "N"   )
+     (segi B    and resi    0 and name "C"   )  1.332 1.00 1.00
+assign (segi B    and resi    4 and name "CB"  )
+     (segi B    and resi    0 and name "O"   )  3.463 1.00 1.00
+assign (segi B    and resi    5 and name "CB"  )
+     (segi B    and resi    0 and name "CH3" )  3.889 1.00 1.00
+
