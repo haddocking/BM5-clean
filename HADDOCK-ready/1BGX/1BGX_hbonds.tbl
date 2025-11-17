@@ -1,4 +1,4 @@
-assign (segid B and resi 60 and name CA) (segid B and resi 765 and name CA) 54.070 0.0 0.0
-assign (segid B and resi 40 and name CA) (segid B and resi 797 and name CA) 61.601 0.0 0.0
-assign (segid A and resi 181 and name CA) (segid A and resi 401 and name CA) 24.770 0.0 0.0
-assign (segid A and resi 110 and name CA) (segid A and resi 410 and name CA) 38.239 0.0 0.0
+assign (segid B and resi 60 and (name CA or name BB)) (segid B and resi 765 and (name CA or name BB)) 54.070 0.0 0.0
+assign (segid B and resi 40 and (name CA or name BB)) (segid B and resi 797 and (name CA or name BB)) 61.601 0.0 0.0
+assign (segid A and resi 181 and (name CA or name BB)) (segid A and resi 401 and (name CA or name BB)) 24.770 0.0 0.0
+assign (segid A and resi 110 and (name CA or name BB)) (segid A and resi 410 and (name CA or name BB)) 38.239 0.0 0.0

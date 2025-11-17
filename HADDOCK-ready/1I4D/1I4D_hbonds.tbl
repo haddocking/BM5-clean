@@ -27,5 +27,5 @@ assi (segi B    and resi  118 and name "OD1" )
      (segi B    and resi  200 and name "C6"  )  3.556 1.0 1.0
 assi (segi B    and resi  159 and name "N"   )
      (segi B    and resi  200 and name "O6"  )  2.977 1.0 1.0
-assign (segid A and resi 195 and name CA) (segid A and resi 705 and name CA) 42.699 0.0 0.0
-assign (segid A and resi 128 and name CA) (segid A and resi 714 and name CA) 50.545 0.0 0.0
+assign (segid A and resi 195 and (name CA or name BB)) (segid A and resi 705 and (name CA or name BB)) 42.699 0.0 0.0
+assign (segid A and resi 128 and (name CA or name BB)) (segid A and resi 714 and (name CA or name BB)) 50.545 0.0 0.0
