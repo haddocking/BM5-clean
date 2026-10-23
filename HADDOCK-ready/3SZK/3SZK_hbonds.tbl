@@ -1,27 +1,20 @@
-! Restraints to fix 'HEM' in its initial position
-assi (segi A    and resi   58 and name "NE2" )
-     (segi A    and resi  142 and name "CHA" )  3.615 1.0 1.0
-assi (segi A    and resi   87 and name "CE1" )
-     (segi A    and resi  142 and name "CHB" )  3.481 1.0 1.0
-assi (segi A    and resi   98 and name "CE1" )
-     (segi A    and resi  142 and name "CHC" )  3.312 1.0 1.0
-assi (segi A    and resi   43 and name "CZ"  )
-     (segi A    and resi  142 and name "CHD" )  3.276 1.0 1.0
-assi (segi A    and resi   83 and name "CD1" )
-     (segi A    and resi  142 and name "C3A" )  3.610 1.0 1.0
-assi (segi A    and resi   61 and name "CD"  )
-     (segi A    and resi  142 and name "CAA" )  3.980 1.0 1.0
-assi (segi A    and resi   86 and name "CD2" )
-     (segi A    and resi  142 and name "CBA" )  3.516 1.0 1.0
-assi (segi A    and resi  136 and name "CD1" )
-     (segi A    and resi  142 and name "C3B" )  3.776 1.0 1.0
-assi (segi A    and resi   93 and name "CG1" )
-     (segi A    and resi  142 and name "C2C" )  3.697 1.0 1.0
-assi (segi A    and resi   42 and name "CG"  )
-     (segi A    and resi  142 and name "CAC" )  3.292 1.0 1.0
-assi (segi A    and resi   91 and name "CD2" )
-     (segi A    and resi  142 and name "C2D" )  3.626 1.0 1.0
-assi (segi A    and resi   45 and name "NE2" )
-     (segi A    and resi  142 and name "CBD" )  3.249 1.0 1.0
-assign (segid A and resi 122 and (name CA or name BB)) (segid A and resi 633 and (name CA or name BB)) 22.467 0.0 0.0
-assign (segid A and resi 74 and (name CA or name BB)) (segid A and resi 640 and (name CA or name BB)) 41.371 0.0 0.0
+assign ( resid 19 and segid A and name CA ) ( resid 536 and segid A and name CA ) 33.8 0.0 0.0
+
+assign ( resid 74 and segid A and name CA ) ( resid 579 and segid A and name CA ) 48.3 0.0 0.0
+
+assign ( resid 142 and segid A and name CHA ) ( resid 58 and segid A and name NE2 ) 3.6 0.0 0.0
+
+assign ( resid 142 and segid A and name CHD ) ( resid 43 and segid A and name CZ ) 3.3 0.0 0.0
+
+assign ( resid 142 and segid A and name CAA ) ( resid 61 and segid A and name CD ) 4.0 0.0 0.0
+
+assign ( resid 142 and segid A and name CGA ) ( resid 61 and segid A and name NZ ) 4.5 0.0 0.0
+
+assign ( resid 142 and segid A and name CAC ) ( resid 42 and segid A and name CG ) 3.3 0.0 0.0
+
+assign ( resid 647 and segid A and name CHD ) ( resid 542 and segid A and name CE2 ) 3.5 0.0 0.0
+
+assign ( resid 647 and segid A and name C3C ) ( resid 598 and segid A and name CG2 ) 3.9 0.0 0.0
+
+
+
