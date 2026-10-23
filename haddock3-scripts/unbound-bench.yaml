@@ -1,0 +1,60 @@
+general:
+  executable: /trinity/login/rversini/haddock/BM5-clean/run_unbound/haddock3.sh
+  max_concurrent: 4 
+  haddock_dir: /trinity/login/rversini/haddock/haddock3/
+  receptor_suffix: _r_u
+  ligand_suffix: _l_u
+  input_list: /trinity/login/rversini/haddock/BM5-clean/run_unbound/input.list
+  work_dir: /trinity/login/rversini/haddock/BM5-clean/run_unbound
+
+slurm:
+  cpus_per_task: 40
+
+scenarios:
+  - name: all-atom_unbound
+    parameters:
+      general:
+        mode: local
+        ncores: 40
+
+      modules:
+        order: [topoaa, rigidbody, caprieval, seletop, flexref, caprieval, seletop, emref, caprieval, clustfcc, caprieval]
+        topoaa:
+          autohis: true
+        rigidbody:
+          sampling: 1000
+          ambig_fname: _ambig5.tbl
+        caprieval:
+          reference_fname: _target.pdb
+        seletop:
+          select: 200
+        flexref:
+          ambig_fname: _ambig5.tbl
+        emref: ~
+        clustfcc: ~
+
+  - name: coarse-grain_unbound
+    parameters:
+      general:
+        mode: local
+        ncores: 40
+
+      modules:
+        order: [topoaa, topocg, rigidbody, caprieval, seletop, flexref, caprieval, seletop, cgtoaa, emref, caprieval, clustfcc, caprieval]
+        topoaa:
+          autohis: true
+        topocg: 
+          cgffversion: "martini2"
+        rigidbody:
+          sampling: 1000
+          ambig_fname: _ambig5.tbl
+        caprieval:
+          reference_fname: _target.pdb
+        seletop:
+          select: 200
+        flexref:
+          ambig_fname: _ambig5.tbl
+        cgtoaa: ~
+        emref: ~
+        clustfcc: ~
+
