@@ -1,62 +1,36 @@
-! Restraints to fix 'HEM' in its initial position
-assi (segi B    and resi   18 and name "NE2" )
-     (segi B    and resi    1 and name "FE"  )  1.986 1.0 1.0
-assi (segi B    and resi   80 and name "CE"  )
-     (segi B    and resi    1 and name "CHC" )  3.502 1.0 1.0
-assi (segi B    and resi   17 and name "CB"  )
-     (segi B    and resi    1 and name "CHD" )  3.733 1.0 1.0
-assi (segi B    and resi   67 and name "OH"  )
-     (segi B    and resi    1 and name "C2A" )  3.765 1.0 1.0
-assi (segi B    and resi   64 and name "SD"  )
-     (segi B    and resi    1 and name "CMA" )  3.637 1.0 1.0
-assi (segi B    and resi   59 and name "CZ2" )
-     (segi B    and resi    1 and name "CAA" )  3.842 1.0 1.0
-assi (segi B    and resi   35 and name "CD1" )
-     (segi B    and resi    1 and name "CBA" )  3.722 1.0 1.0
-assi (segi B    and resi   48 and name "OH"  )
-     (segi B    and resi    1 and name "O1A" )  2.808 1.0 1.0
-assi (segi B    and resi   14 and name "SG"  )
-     (segi B    and resi    1 and name "C2B" )  3.382 1.0 1.0
-assi (segi B    and resi   13 and name "O"   )
-     (segi B    and resi    1 and name "CMC" )  3.300 1.0 1.0
-assi (segi B    and resi   29 and name "CA"  )
-     (segi B    and resi    1 and name "C2D" )  3.831 1.0 1.0
-assi (segi B    and resi   30 and name "CD"  )
-     (segi B    and resi    1 and name "C3D" )  3.869 1.0 1.0
-assi (segi B    and resi   46 and name "OH"  )
-     (segi B    and resi    1 and name "CMD" )  3.267 1.0 1.0
-assi (segi B    and resi   78 and name "OG1" )
-     (segi B    and resi    1 and name "CBD" )  3.393 1.0 1.0
-! Restraints to fix 'HEM' in its initial position
-assi (segi A    and resi  175 and name "NE2" )
-     (segi A    and resi  296 and name "FE"  )  2.084 1.0 1.0
-assi (segi A    and resi  191 and name "CH2" )
-     (segi A    and resi  296 and name "CHA" )  3.507 1.0 1.0
-assi (segi A    and resi  232 and name "CD1" )
-     (segi A    and resi  296 and name "CHB" )  3.697 1.0 1.0
-assi (segi A    and resi   51 and name "CZ2" )
-     (segi A    and resi  296 and name "CHC" )  3.659 1.0 1.0
-assi (segi A    and resi  180 and name "CG2" )
-     (segi A    and resi  296 and name "C2A" )  4.201 1.0 1.0
-assi (segi A    and resi  185 and name "CB"  )
-     (segi A    and resi  296 and name "CMA" )  3.620 1.0 1.0
-assi (segi A    and resi   48 and name "CZ"  )
-     (segi A    and resi  296 and name "CBA" )  3.787 1.0 1.0
-assi (segi A    and resi  184 and name "CB"  )
-     (segi A    and resi  296 and name "CGA" )  3.371 1.0 1.0
-assi (segi A    and resi  181 and name "ND1" )
-     (segi A    and resi  296 and name "O2A" )  2.720 1.0 1.0
-assi (segi A    and resi  145 and name "CG"  )
-     (segi A    and resi  296 and name "C2B" )  4.158 1.0 1.0
-assi (segi A    and resi  146 and name "O"   )
-     (segi A    and resi  296 and name "CMB" )  3.394 1.0 1.0
-assi (segi A    and resi  174 and name "CB"  )
-     (segi A    and resi  296 and name "CAC" )  3.349 1.0 1.0
-assi (segi A    and resi  171 and name "O"   )
-     (segi A    and resi  296 and name "CBC" )  3.170 1.0 1.0
-assi (segi A    and resi  177 and name "O"   )
-     (segi A    and resi  296 and name "C3D" )  3.953 1.0 1.0
-assi (segi A    and resi   44 and name "O"   )
-     (segi A    and resi  296 and name "CMD" )  3.511 1.0 1.0
-assi (segi A    and resi  179 and name "O"   )
-     (segi A    and resi  296 and name "CGD" )  3.687 1.0 1.0
+assign ( resid 296 and segid A and name FE ) ( resid 175 and segid A and name NE2 ) 2.1 0.0 0.0
+
+assign ( resid 296 and segid A and name CHB ) ( resid 232 and segid A and name CD1 ) 3.7 0.0 0.0
+
+assign ( resid 296 and segid A and name C2A ) ( resid 180 and segid A and name CG2 ) 4.2 0.0 0.0
+
+assign ( resid 296 and segid A and name CBA ) ( resid 48 and segid A and name CZ ) 3.8 0.0 0.0
+
+assign ( resid 296 and segid A and name O2A ) ( resid 181 and segid A and name ND1 ) 2.7 0.0 0.0
+
+assign ( resid 296 and segid A and name C2B ) ( resid 145 and segid A and name CG ) 4.2 0.0 0.0
+
+assign ( resid 296 and segid A and name C1C ) ( resid 51 and segid A and name NE1 ) 3.4 0.0 0.0
+
+assign ( resid 296 and segid A and name CMC ) ( resid 51 and segid A and name CD2 ) 3.7 0.0 0.0
+
+assign ( resid 296 and segid A and name O2D ) ( resid 179 and segid A and name N ) 3.0 0.0 0.0
+
+
+assign ( resid 1 and segid B and name FE ) ( resid 18 and segid B and name NE2 ) 2.0 0.0 0.0
+
+assign ( resid 1 and segid B and name CHC ) ( resid 80 and segid B and name CE ) 3.5 0.0 0.0
+
+assign ( resid 1 and segid B and name C2A ) ( resid 67 and segid B and name OH ) 3.8 0.0 0.0
+
+assign ( resid 1 and segid B and name CAA ) ( resid 59 and segid B and name CZ2 ) 3.8 0.0 0.0
+
+assign ( resid 1 and segid B and name O2A ) ( resid 59 and segid B and name NE1 ) 3.1 0.0 0.0
+
+assign ( resid 1 and segid B and name C1C ) ( resid 18 and segid B and name CD2 ) 3.7 0.0 0.0
+
+assign ( resid 1 and segid B and name C2D ) ( resid 29 and segid B and name CA ) 3.8 0.0 0.0
+
+assign ( resid 1 and segid B and name CBD ) ( resid 78 and segid B and name OG1 ) 3.4 0.0 0.0
+
+

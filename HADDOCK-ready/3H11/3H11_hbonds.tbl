@@ -1,9 +1,10 @@
-! Restraints to fix 'ACE' in its initial position
-assi (segi A    and resi 1003 and name "N"   )
-     (segi A    and resi 1001 and name "C"   )  3.408 1.0 1.0
-assi (segi A    and resi  258 and name "NE"  )
-     (segi A    and resi 1001 and name "CH3" )  3.393 1.0 1.0
-assign (segid B and resi 346 and (name CA or name BB)) (segid B and resi 400 and (name CA or name BB)) 12.710 0.0 0.0
-assign (segid B and resi 304 and (name CA or name BB)) (segid B and resi 450 and (name CA or name BB)) 35.642 0.0 0.0
-assign (segid A and resi 353 and (name CA or name BB)) (segid A and resi 470 and (name CA or name BB)) 8.845 0.0 0.0
-assign (segid A and resi 302 and (name CA or name BB)) (segid A and resi 474 and (name CA or name BB)) 22.413 0.0 0.0
+assign ( resid 243 and segid A and name CA ) ( resid 410 and segid A and name CA ) 19.2 0.0 0.0
+
+assign ( resid 302 and segid A and name CA ) ( resid 437 and segid A and name CA ) 29.4 0.0 0.0
+
+
+assign ( resid 256 and segid B and name CA ) ( resid 415 and segid B and name CA ) 23.5 0.0 0.0
+
+assign ( resid 304 and segid B and name CA ) ( resid 440 and segid B and name CA ) 24.4 0.0 0.0
+
+

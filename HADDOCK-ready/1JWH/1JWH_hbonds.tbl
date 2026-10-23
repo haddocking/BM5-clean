@@ -1,31 +1,36 @@
-! Restraints to fix 'EMO' in its initial position
-assi (segi B    and resi  174 and name "CG2" )
-     (segi B    and resi  400 and name "C1"  )  3.820 1.0 1.0
-assi (segi B    and resi   95 and name "CG1" )
-     (segi B    and resi  400 and name "O1"  )  3.567 1.0 1.0
-assi (segi B    and resi  113 and name "CE2" )
-     (segi B    and resi  400 and name "C2"  )  3.420 1.0 1.0
-assi (segi B    and resi  175 and name "N"   )
-     (segi B    and resi  400 and name "C3"  )  3.448 1.0 1.0
-assi (segi B    and resi   68 and name "NZ"  )
-     (segi B    and resi  400 and name "O3"  )  2.761 1.0 1.0
-assi (segi B    and resi   53 and name "CG2" )
-     (segi B    and resi  400 and name "O6"  )  3.579 1.0 1.0
-assi (segi B    and resi  118 and name "ND2" )
-     (segi B    and resi  400 and name "C9"  )  3.888 1.0 1.0
-assi (segi B    and resi  163 and name "CE"  )
-     (segi B    and resi  400 and name "C17" )  3.495 1.0 1.0
-assi (segi B    and resi   66 and name "CG1" )
-     (segi B    and resi  400 and name "C19" )  3.782 1.0 1.0
-assign (segid A and resi 52 and (name CA or name BB)) (segid A and resi 182 and (name CA or name BB)) 49.880 0.0 0.0
-assign (segid A and resi 34 and (name CA or name BB)) (segid A and resi 187 and (name CA or name BB)) 61.028 0.0 0.0
-assign (segid A and resi 8 and (name CA or name BB)) (segid A and resi 551 and (name CA or name BB)) 65.095 0.0 0.0
-assign (segid A and resi 41 and (name CA or name BB)) (segid A and resi 526 and (name CA or name BB)) 65.304 0.0 0.0
-assign (segid A and resi 38 and (name CA or name BB)) (segid A and resi 663 and (name CA or name BB)) 54.839 0.0 0.0
-assign (segid A and resi 26 and (name CA or name BB)) (segid A and resi 614 and (name CA or name BB)) 37.456 0.0 0.0
-assign (segid A and resi 105 and (name CA or name BB)) (segid A and resi 524 and (name CA or name BB)) 38.988 0.0 0.0
-assign (segid A and resi 192 and (name CA or name BB)) (segid A and resi 538 and (name CA or name BB)) 25.003 0.0 0.0
-assign (segid A and resi 144 and (name CA or name BB)) (segid A and resi 609 and (name CA or name BB)) 8.824 0.0 0.0
-assign (segid A and resi 186 and (name CA or name BB)) (segid A and resi 678 and (name CA or name BB)) 21.212 0.0 0.0
-assign (segid A and resi 516 and (name CA or name BB)) (segid A and resi 634 and (name CA or name BB)) 18.569 0.0 0.0
-assign (segid A and resi 512 and (name CA or name BB)) (segid A and resi 587 and (name CA or name BB)) 18.073 0.0 0.0
+assign ( resid 12 and segid A and name CA ) ( resid 95 and segid A and name CA ) 20.5 0.0 0.0
+
+assign ( resid 33 and segid A and name CA ) ( resid 134 and segid A and name CA ) 28.8 0.0 0.0
+
+assign ( resid 51 and segid A and name CA ) ( resid 557 and segid A and name CA ) 74.8 0.0 0.0
+
+assign ( resid 39 and segid A and name CA ) ( resid 526 and segid A and name CA ) 63.8 0.0 0.0
+
+assign ( resid 56 and segid A and name CA ) ( resid 643 and segid A and name CA ) 50.7 0.0 0.0
+
+assign ( resid 7 and segid A and name CA ) ( resid 617 and segid A and name CA ) 43.3 0.0 0.0
+
+assign ( resid 108 and segid A and name CA ) ( resid 514 and segid A and name CA ) 29.3 0.0 0.0
+
+assign ( resid 159 and segid A and name CA ) ( resid 550 and segid A and name CA ) 55.5 0.0 0.0
+
+assign ( resid 144 and segid A and name CA ) ( resid 625 and segid A and name CA ) 25.8 0.0 0.0
+
+assign ( resid 80 and segid A and name CA ) ( resid 559 and segid A and name CA ) 68.6 0.0 0.0
+
+assign ( resid 548 and segid A and name CA ) ( resid 640 and segid A and name CA ) 42.7 0.0 0.0
+
+assign ( resid 555 and segid A and name CA ) ( resid 629 and segid A and name CA ) 26.6 0.0 0.0
+
+
+assign ( resid 400 and segid B and name C1 ) ( resid 174 and segid B and name CG2 ) 3.8 0.0 0.0
+
+assign ( resid 400 and segid B and name C2 ) ( resid 113 and segid B and name CE2 ) 3.4 0.0 0.0
+
+assign ( resid 400 and segid B and name O3 ) ( resid 68 and segid B and name NZ ) 2.8 0.0 0.0
+
+assign ( resid 400 and segid B and name C5 ) ( resid 174 and segid B and name CD1 ) 3.6 0.0 0.0
+
+assign ( resid 400 and segid B and name C17 ) ( resid 163 and segid B and name CE ) 3.5 0.0 0.0
+
+

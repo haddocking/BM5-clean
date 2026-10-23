@@ -1,6 +1,14 @@
-assign (segid A and resi 118 and (name CA or name BB)) (segid A and resi 217 and (name CA or name BB)) 24.988 0.0 0.0
-assign (segid A and resi 72 and (name CA or name BB)) (segid A and resi 221 and (name CA or name BB)) 52.706 0.0 0.0
-assign (segid A and resi 8 and (name CA or name BB)) (segid A and resi 683 and (name CA or name BB)) 32.416 0.0 0.0
-assign (segid A and resi 90 and (name CA or name BB)) (segid A and resi 585 and (name CA or name BB)) 35.232 0.0 0.0
-assign (segid A and resi 192 and (name CA or name BB)) (segid A and resi 668 and (name CA or name BB)) 19.803 0.0 0.0
-assign (segid A and resi 174 and (name CA or name BB)) (segid A and resi 584 and (name CA or name BB)) 25.273 0.0 0.0
+assign ( resid 19 and segid A and name CA ) ( resid 162 and segid A and name CA ) 28.1 0.0 0.0
+
+assign ( resid 72 and segid A and name CA ) ( resid 186 and segid A and name CA ) 38.3 0.0 0.0
+
+assign ( resid 118 and segid A and name CA ) ( resid 715 and segid A and name CA ) 39.7 0.0 0.0
+
+assign ( resid 87 and segid A and name CA ) ( resid 588 and segid A and name CA ) 35.4 0.0 0.0
+
+assign ( resid 220 and segid A and name CA ) ( resid 634 and segid A and name CA ) 18.6 0.0 0.0
+
+assign ( resid 145 and segid A and name CA ) ( resid 590 and segid A and name CA ) 31.1 0.0 0.0
+
+
+

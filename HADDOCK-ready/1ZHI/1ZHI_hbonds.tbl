@@ -1,14 +1,10 @@
-assign (segid B and resi 521 and (name CA or name BB)) (segid B and resi 529 and (name CA or name BB)) 10.174 0.0 0.0
-assign (segid B and resi 507 and (name CA or name BB)) (segid B and resi 531 and (name CA or name BB)) 23.005 0.0 0.0
-assign (segid B and resi 507 and (name CA or name BB)) (segid B and resi 575 and (name CA or name BB)) 24.289 0.0 0.0
-assign (segid B and resi 491 and (name CA or name BB)) (segid B and resi 544 and (name CA or name BB)) 33.338 0.0 0.0
-assign (segid B and resi 494 and (name CA or name BB)) (segid B and resi 611 and (name CA or name BB)) 23.854 0.0 0.0
-assign (segid B and resi 506 and (name CA or name BB)) (segid B and resi 598 and (name CA or name BB)) 12.222 0.0 0.0
-assign (segid B and resi 529 and (name CA or name BB)) (segid B and resi 567 and (name CA or name BB)) 35.017 0.0 0.0
-assign (segid B and resi 530 and (name CA or name BB)) (segid B and resi 543 and (name CA or name BB)) 24.262 0.0 0.0
-assign (segid B and resi 530 and (name CA or name BB)) (segid B and resi 592 and (name CA or name BB)) 35.334 0.0 0.0
-assign (segid B and resi 529 and (name CA or name BB)) (segid B and resi 601 and (name CA or name BB)) 19.038 0.0 0.0
-assign (segid B and resi 538 and (name CA or name BB)) (segid B and resi 591 and (name CA or name BB)) 27.120 0.0 0.0
-assign (segid B and resi 560 and (name CA or name BB)) (segid B and resi 603 and (name CA or name BB)) 18.880 0.0 0.0
-assign (segid A and resi 19 and (name CA or name BB)) (segid A and resi 198 and (name CA or name BB)) 11.036 0.0 0.0
-assign (segid A and resi 11 and (name CA or name BB)) (segid A and resi 206 and (name CA or name BB)) 29.207 0.0 0.0
+assign ( resid 1 and segid A and name CA ) ( resid 80 and segid A and name CA ) 16.9 0.0 0.0
+
+assign ( resid 10 and segid A and name CA ) ( resid 132 and segid A and name CA ) 30.4 0.0 0.0
+
+
+assign ( resid 496 and segid B and name CA ) ( resid 593 and segid B and name CA ) 23.4 0.0 0.0
+
+assign ( resid 532 and segid B and name CA ) ( resid 600 and segid B and name CA ) 20.4 0.0 0.0
+
+
