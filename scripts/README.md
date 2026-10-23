@@ -19,6 +19,8 @@ Requirements:
 
 In order:
 
+0. `superimpose-unbound.py [COMPLEX...]` : superimposes each unbound partner onto its matched bound partner
+   over its interface (backbone of `target.izoneA` or `target.izoneB`)
 1. `make-target-unbound.py` : rebuild `ana_scripts/target-unbound.pdb` from `XXX_r_u.pdb` and `XXX_l_u.pdb`
    (`--write`; without it, only lists the complexes whose file differs)
 2. `make-ana-files-all.sh` : intermolecular contacts at 3.9 and 5A (`target.contacts3.9`, `target.contacts5`),
@@ -33,9 +35,15 @@ In order:
 4. `make-hbonds.sh` : `XXX_hbonds.tbl`, `haddock-restraints restraint` on `XXX_r_u.pdb` and `XXX_l_u.pdb`
    concatenated (restraints keeping chain breaks, merged chains and co-factors together); no file when
    there is nothing to restrain
-5. `make-irmsd-tables.sh` : the i-RMSD tables `i-RMSD.dat`, `i-RMSD_r.dat`, `i-RMSD_l.dat` and their
+5. `make-info.sh FILE.pdb...` : the `.info` statistics files (pdb_wc and whether the numbering has gaps)
+6. `make-irmsd-tables.sh` : the i-RMSD tables `i-RMSD.dat`, `i-RMSD_r.dat`, `i-RMSD_l.dat` and their
    `-sorted` versions, with
    * `irmsd.sh REFERENCE.pdb MOBILE.pdb ZONEFILE` : ProFit backbone (N, CA, C, O) RMSD over a zone file
+
+haddock3 benchmark lists:
+
+* `make-haddock3-lists.py` : writes `haddock3-scripts/input.list` (all complexes except the AB ones) and one
+  `haddock3-scripts/input-<NAME>.list` per `HADDOCK-ready/categories/<NAME>.txt` (haddock-runner format)
 
 Symmetry-related references (`ana_scripts_K`):
 
@@ -45,6 +53,10 @@ Symmetry-related references (`ana_scripts_K`):
   copies, on their rigid core, or on the binding site when the copies differ by domain motions). The
   operation reproducing the existing reference best is chosen (so that `ana_scripts_K` keeps its site).
   Copy the new `target.pdb` into place, then run `make-ana-files-all.sh`.
+
+* `make-symmetry-refs.py OUT COMPLEX...` : creates the symmetry-related references of complexes that have
+  none yet: each symmetry operation of a partner made of symmetric copies is applied to the other partner,
+  and kept when it gives a distinct binding site without clashes and with an interface of comparable size.
 
 Some PDB files hold other data than the element and charge in columns 77-80: `make-ambig.sh` and
 `make-hbonds.sh` rebuild these columns in the copies read by `haddock-restraints`.
@@ -89,6 +101,17 @@ Corrections (each writes the corrected files to an output directory, to be check
   unbound file (used with `fix_alt.py --unbound-only` when the bound entry numbers residues differently)
 * `swap_protomers.py FILE CHAIN N` : swaps the numbering of protomers 2 and 3 (4FQI ligand trimer)
 * `fix_se.py FILE...` : remaining selenium in MET (atom `SE` renamed `SD`, element `S`)
+
+Adding the Docking Benchmark 5.5 entries:
+
+* `add_bm55.py STRUCTURES TABLE.xlsx OUTDIR COMPLEX...` : converts BM5.5 entries (`benchmark5.5/structures`
+  and `Table_BM5.5.xlsx` from [https://zlab.wenglab.org/benchmark/](https://zlab.wenglab.org/benchmark/)) to the
+  HADDOCK-ready layout: bound and unbound chains paired (sequence identity and CA positions), only residues
+  present in both forms with the same type kept, numbering of the unbound chains without insertion codes,
+  chains merged into one chain per partner (A receptor, B ligand; later chains shifted by multiples of 500),
+  and the reference complex `XXX_target.pdb`. The derived files are then made with the scripts above
+  (`make-info.sh`, `make-target-unbound.py`, `make-ana-files.sh`, `make-ambig.sh`, `make-hbonds.sh`,
+  `make-irmsd-tables.sh`).
 
 `TER` records:
 

@@ -1,6 +1,6 @@
 # HADDOCK-ready
 
-The directory contains HADDOCK-ready files for each entry of BM5.
+The directory contains HADDOCK-ready files for each entry of BM5 and BM5.5.
 Each sub-directory (one per complex) contains the following files:
 
 * `XXX_r_u.pdb` : Unbound receptor PDB
@@ -34,7 +34,8 @@ And if there is a co-factor or ligand in the structure:
 
 Further each sub-directory contains an `ana_scripts` directory with the reference files for the analysis:
 
-* `target-unbound.pdb` : the unbound complex (`XXX_r_u.pdb` and `XXX_l_u.pdb`, superimposed onto the reference complex)
+* `target-unbound.pdb` : the unbound complex (`XXX_r_u.pdb` and `XXX_l_u.pdb`; each unbound partner is
+  superimposed onto its bound partner in the reference complex over its interface, backbone of `target.izoneA` or `target.izoneB`)
 * `target.contacts3.9` : intermolecular contacts at 3.9A cutoff
 * `target.contacts5` : intermolecular contacts at 5A cutoff used for calculating the fraction of native contacts
 * `target.izone` : the interface definition for i-RMSD calculations with ProFit (derived from all residue contacts at 10A)
@@ -56,6 +57,22 @@ The `ana_scripts` directory at this level contains the analysis scripts:
 
 Note that the paths in the various analysis scripts must be adapted to your directory structure.
 This can be done by running the `scripts/setup-ana_scripts.csh` script with as argument the directory name of all entries
+
+The `categories` directory lists the complexes by type (one complex per line), with the complex
+category labels of the Docking Benchmark 5.5:
+
+* `EI.txt` : Enzyme-Inhibitor
+* `ES.txt` : Enzyme-Substrate
+* `ER.txt` : Enzyme complex with a regulatory or accessory chain
+* `AA.txt` : Antibody-Antigen
+* `AS.txt` : Antigen - Single domain Antibody
+* `OG.txt` : Others, G-protein containing
+* `OR.txt` : Others, Receptor containing
+* `OX.txt` : Others, miscellaneous
+* `AB.txt` : Antibody-Antigen complexes without an unbound antibody structure (BM5 entries, removed
+  from BM5.5)
+* `non-antibody.txt` : all complexes except the antibody and nanobody ones (all but AA, AS and AB)
+* `antibody-nanobody.txt` : antibody and nanobody complexes (AA and AS)
 
 Finally, the `HADDOCK-ready` directory also contains pre-calculated i-RMSD values for the superimposed
 unbound structures onto the reference complex and for each separate interface (ProFit, backbone atoms

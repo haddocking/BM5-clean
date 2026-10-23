@@ -1,6 +1,6 @@
 ## BM5-clean
 
-Docking benchmark 5 (BM5) - cleaned and ready to use for HADDOCK
+Docking benchmark 5.5 (BM5 and BM5.5) - cleaned and ready to use for HADDOCK
 
 [![DOI](https://zenodo.org/badge/162272657.svg)](https://zenodo.org/badge/latestdoi/162272657)
 This is the docking and binding affinity benchmark described in:
@@ -11,11 +11,21 @@ B. Jimenez-Garcia, P.A. Bates, Juan Fernandez-Recio, A.M.J.J. Bonvin and Z. Weng
 _J. Mol. Biol._ *19*, 3031-3041 (2015).
 <https://doi.org/doi:10.1016/j.jmb.2015.07.016>
 
+and its antibody-antigen extension, Docking Benchmark 5.5 ([https://zlab.wenglab.org/benchmark/](https://zlab.wenglab.org/benchmark/)):
+
+J.D. Guest, T. Vreven, J. Zhou, I. Moal, J.R. Jeliazkov, J.J. Gray, Z. Weng and B.G. Pierce.
+**An expanded benchmark for antibody-antigen docking and affinity prediction reveals insights into antibody recognition determinants**. <BR>
+_Structure_ *29*, 606-621 (2021).
+<https://doi.org/10.1016/j.str.2021.01.005>
+
+`HADDOCK-ready` contains 271 complexes: the 230 BM5 entries and the 41 entries added in BM5.5
+(antibody-antigen and nanobody-antigen complexes).
+
 The repository contains the following information:
 
 # HADDOCK-ready
 
-The directory contains HADDOCK-ready files for each entry of BM5.
+The directory contains HADDOCK-ready files for each entry of BM5 and BM5.5.
 Each sub-directory (one per complex) contains the following files:
 
 * `XXX_r_u.pdb` : Unbound receptor PDB
@@ -56,7 +66,8 @@ And if there is a co-factor or ligand in the structure:
 
 Further each sub-directory contains an `ana_scripts` directory with the reference files for the analysis:
 
-* `target-unbound.pdb` : the unbound complex (`XXX_r_u.pdb` and `XXX_l_u.pdb`, which are superimposed onto the reference complex)
+* `target-unbound.pdb` : the unbound complex (`XXX_r_u.pdb` and `XXX_l_u.pdb`; each unbound partner is
+  superimposed onto its bound partner in the reference complex over its interface, backbone of `target.izoneA` or `target.izoneB`)
 * `target.contacts3.9` : intermolecular contacts at 3.9A cutoff
 * `target.contacts5` : intermolecular contacts at 5A cutoff used for calculating the fraction of native contacts
 * `target.izone` : the interface definition for i-RMSD calculations with ProFit (derived from all residue contacts at 10A)
@@ -83,6 +94,22 @@ The `HADDOCK-ready/ana_scripts` directory contains the analysis scripts:
 Note that the paths in the various analysis scripts must be adapted to your directory structure.
 This can be done by running the `HADDOCK-ready/scripts/setup-ana_scripts.csh` script with as argument the directory name of all entries
 
+The `categories` directory lists the complexes by type (one complex per line), with the complex
+category labels of the Docking Benchmark 5.5:
+
+* `EI.txt` : Enzyme-Inhibitor
+* `ES.txt` : Enzyme-Substrate
+* `ER.txt` : Enzyme complex with a regulatory or accessory chain
+* `AA.txt` : Antibody-Antigen
+* `AS.txt` : Antigen - Single domain Antibody
+* `OG.txt` : Others, G-protein containing
+* `OR.txt` : Others, Receptor containing
+* `OX.txt` : Others, miscellaneous
+* `AB.txt` : Antibody-Antigen complexes without an unbound antibody structure (BM5 entries, removed
+  from BM5.5)
+* `non-antibody.txt` : all complexes except the antibody and nanobody ones (all but AA, AS and AB)
+* `antibody-nanobody.txt` : antibody and nanobody complexes (AA and AS)
+
 Finally, the `HADDOCK-ready` directory also contains pre-calculated i-RMSD values for the superimposed
 unbound structures onto the reference complex and for each separate interface (ProFit, backbone atoms
 N, CA, C and O over the `target.izone`, `target.izoneA` and `target.izoneB` zones):
@@ -107,7 +134,10 @@ Configuration files to run the benchmark with haddock3 using
 * `unbound-bench.yaml` : benchmark configuration with two scenarios starting from the unbound structures,
   all-atom (`all-atom_unbound`) and coarse-grained Martini 2 (`coarse-grain_unbound`), using the
   `XXX_ambig5.tbl` restraints and evaluating against `XXX_target.pdb`
-* `input.list` : the list of unbound receptor and ligand PDB files of all complexes
+* `input.list` : the list of unbound receptor and ligand PDB files of all complexes except the AB ones
+  (antibody-antigen complexes without an unbound antibody, `HADDOCK-ready/categories/AB.txt`)
+* `input-<NAME>.list` : the same for the complexes of each list in `HADDOCK-ready/categories`
+  (e.g. `input-EI.list`, `input-antibody-nanobody.list`, `input-non-antibody.list`)
 * `haddock3.sh` : wrapper script calling `haddock3` (paths must be adapted to your installation)
 
 
@@ -121,6 +151,17 @@ See the README in that directory.
 
 
 # Changes
+
+The 41 BM5.5 entries (1S78, 2DD8, ..., 6OC3) were added from the BM5.5 distribution
+(`benchmark5.5.tgz`) with `scripts/curation/add_bm55.py`: bound and unbound chains paired, only
+residues present in both forms with the same type kept, insertion codes removed and chains merged
+into a single chain per partner (later chains shifted by multiples of 500). Symmetry-related
+references (`ana_scripts_K`) were created for the new entries with a symmetric partner (2FJG, 3WD5,
+5HYS, 5KOV, 5WUX, 5Y9J, 6EY6) with `scripts/make-symmetry-refs.py`.
+
+All unbound partners (BM5 and BM5.5) were superimposed onto their bound partners over their interface
+(`scripts/superimpose-unbound.py`); the complex i-RMSD values now agree with those of the BM5.5 table
+(median difference 0.03 A).
 
 The `HADDOCK-ready` files were checked against the PDB entries and corrected:
 
