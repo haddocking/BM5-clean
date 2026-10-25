@@ -1,0 +1,49 @@
+assign (resi 224 and segid A)
+(
+       (resi 3 and segid B)
+        or
+       (resi 83 and segid B)
+        or
+       (resi 4 and segid B)
+        or
+       (resi 5 and segid B)
+        or
+       (resi 31 and segid B)
+        or
+       (resi 54 and segid B)
+        or
+       (resi 81 and segid B)
+        or
+       (resi 82 and segid B)
+        or
+       (resi 84 and segid B)
+        or
+       (resi 108 and segid B)
+) 2.0 2.0 0.0
+
+assign (resi 3 and segid B)
+(
+       (resi 224 and segid A)
+        or
+       (resi 222 and segid A)
+        or
+       (resi 226 and segid A)
+        or
+       (resi 229 and segid A)
+        or
+       (resi 245 and segid A)
+) 2.0 2.0 0.0
+
+assign (resi 83 and segid B)
+(
+       (resi 224 and segid A)
+        or
+       (resi 222 and segid A)
+        or
+       (resi 226 and segid A)
+        or
+       (resi 229 and segid A)
+        or
+       (resi 245 and segid A)
+) 2.0 2.0 0.0
+
